@@ -14,11 +14,23 @@ And then execute:
     $ bundle
 
 ## Usage
-The API is in progress. Currently, these features are supported:
 
-- Know proper liencloud csv format headers
-- Know proper lumentum csv format headers
-- Normalize column names to ruby style (lower-case snakecase)
+```ruby
+# It is quite a simple utility, with an exposed but uneeded API. In it's final implementation,
+# the functionality needed will simply be:
+# csv = CSVundle.csv_for(my_data, :lienalytics)
+# However, the internal API has an `AccessCSV` class that can be used like so:
+csv = CSVundle::AccessCSV.new
+csv.colums << ["batHeads", "TOES", "ViciousFoes", "friends", "number of jerrys"]
+csv.rows <<   [1, 6, 1, 99, "3.14159365358979323846264338327950288419"]
+csv.rows <<   [2, 4, 14, 3, "3.14159365358979323846264338327950288419"]
+csv.rows_for("number of jerrys")
+# => { "number of jerrys": ["3.14159365358979323846264338327950288419", "3.14159365358979323846264338327950288419"] }
+csv.normalized_columns
+# => [:bat_heads, :toes, :vicious_foes, :friends, :"number of jerrys"]
+csv.viperize(:BatFarts)
+# => :bat_farts
+```
 
 ## Development
 
