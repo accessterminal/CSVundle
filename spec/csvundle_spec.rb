@@ -1,11 +1,7 @@
 require 'spec_helper'
 
-describe Csvundle do
+describe CSVundle do
   it 'has a version number' do
-    expect(Csvundle::VERSION).not_to be nil
-  end
-
-  it 'does something useful' do
-    expect(false).to eq(true)
+    expect(CSVundle::VERSION).not_to be nil
   end
 end

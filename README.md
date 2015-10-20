@@ -1,28 +1,24 @@
-# Csvundle
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/csvundle`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+# CSVundle
+CSVundle is a utility for Access Terminal. It assists in the generation of CSV's for a given set properties.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'csvundle'
+gem 'csvundle', git: 'https://github.com/cometaworks/csvundle.git', :branch => 'master'
 ```
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install csvundle
-
 ## Usage
+The API is in progress. Currently, these features are supported:
 
-TODO: Write usage instructions here
+- Know proper liencloud csv format headers
+- Know proper lumentum csv format headers
+- Normalize column names to ruby style (lower-case snakecase)
 
 ## Development
 
