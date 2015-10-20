@@ -22,6 +22,10 @@ module CSVundle
     def normalized_columns
       @columns.map { |c| viperize(c) }
     end
+
+    def rows_for(column)
+      { "#{column}": @rows.map { |row| row[@columns.index(column)] } }
+    end
   end
 
   class AccessCSV < GenericCSV
