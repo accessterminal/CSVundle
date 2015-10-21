@@ -27,17 +27,21 @@ describe CSVundle::GenericCSV do
   end
 
   context "AccessCSV Class" do
-    let(:liencloud_csv)       { CSVundle::AccessCSV.new(:liencloud) }
+    let(:lienalytics_csv)       { CSVundle::AccessCSV.new(:lienalytics) }
     let(:lumentum_csv)        { CSVundle::AccessCSV.new(:lumentum) }
-    let(:expected_liencloud)  { YAML.load(File.read("config/headers.yml"))['liencloud'] }
+    let(:expected_lienalytics)  { YAML.load(File.read("config/headers.yml"))['lienalytics'] }
     let(:expected_lumentum)   { YAML.load(File.read("config/headers.yml"))['lumentum'] }
 
     it "has the proper headers for liencloud on instantiation" do
-      expect(liencloud_csv.columns).to eq expected_liencloud 
+      expect(lienalytics_csv.columns).to eq expected_lienalytics
     end
 
     it "has the proper headers for lumentum on instantiation" do
       expect(lumentum_csv.columns).to eq expected_lumentum
+    end
+
+    it "can set up a given csv by type" do
+      lienalytics_csv.portfolio_to_csv([2, 3, 4])
     end
   end
 end
