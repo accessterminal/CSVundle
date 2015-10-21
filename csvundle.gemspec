@@ -5,7 +5,7 @@ require 'csvundle/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "csvundle"
-  spec.version       = Csvundle::VERSION
+  spec.version       = CSVundle::VERSION
   spec.authors       = ["Ybur Yug"]
   spec.email         = ["bobbygrayson@gmail.com"]
 
