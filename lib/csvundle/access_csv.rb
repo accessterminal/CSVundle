@@ -24,7 +24,7 @@ module CSVundle
     end
 
     def rows_for(column)
-      { "#{column}".to_sym => rows.map { |row| row[columns.index(column)] } }
+      { "#{column}": @rows.map { |row| row[@columns.index(column)] } }
     end
   end
 
