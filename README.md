@@ -1,4 +1,5 @@
 # CSVundle
+[ ![Codeship Status for cometaworks/CSVundle](https://codeship.com/projects/d9fe0ac0-5a29-0133-81d7-0e6f49d10408/status?branch=master)](https://codeship.com/projects/110270)
 CSVundle is a utility for Access Terminal. It assists in the generation of CSV's for a given set properties.
 
 ## Installation
