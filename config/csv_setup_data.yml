@@ -1,419 +1,420 @@
 "lienalytics":
     "headers":
-        "lien_ID":  "lien_ID"
-        "row_number":  "row_number"
-        "state_name":  "state_name"
-        "county_name":  "county_name"
-        "full_fips_code":  "full_fips_code"
-        "apn":  "apn"
-        "parcel_id":  "parcel_id"
-        "block":  "block"
-        "lot":  "lot"
-        "qualifier":  "qualifier"
-        "addl_lots":  "addl_lots"
-        "tax_type":  "tax_type"
-        "list_item_reference":  "list_item_reference"
-        "client_provided_parcel_id":  "client_provided_parcel_id"
-        "certificate_no":  "certificate_no"
-        "face_value":  "face_value"
-        "redemptive_value":  "redemptive_value"
-        "principal":  "principal"
-        "tax_year":  "tax_year"
-        "total_yearly_tax":  "total_yearly_tax"
-        "location_street_address_1":  "location_street_address_1"
-        "location_street_address_2":  "location_street_address_2"
-        "location_city_state_zip":  "location_city_state_zip"
-        "location_city":  "location_city"
-        "location_zip":  "location_zip"
-        "longitude":  "longitude"
-        "latitude":  "latitude"
-        "county_land_use":  "county_land_use"
-        "county_land_use_desc":  "county_land_use_desc"
-        "standardized_land_use":  "standardized_land_use"
-        "standardized_land_use_desc":  "standardized_land_use_desc"
-        "county_held":  "county_held"
-        "prop_record_year":  "prop_record_year"
-        "lien_rollup":  "lien_rollup"
-        "location_house_number":  "location_house_number"
-        "location_street_dir_left":  "location_street_dir_left"
-        "location_street_name":  "location_street_name"
-        "location_street_suffix":  "location_street_suffix"
-        "location_street_dir_right":  "location_street_dir_right"
-        "location_unit_number":  "location_unit_number"
-        "legal_status":  "legal_status"
-        "interest_rate":  "interest_rate"
-        "penalty_rate":  "penalty_rate"
-        "penalty_amount":  "penalty_amount"
-        "premium_overbid":  "premium_overbid"
-        "overbid_interest_rate":  "overbid_interest_rate"
-        "original_sale_auction_date":  "original_sale_auction_date"
-        "date_purchased_from_issuer":  "date_purchased_from_issuer"
-        "issuer":  "issuer"
-        "sub":  "sub"
-        "assessment_year":  "assessment_year"
-        "assessed_land_value":  "assessed_land_value"
-        "assessed_improvement_value":  "assessed_improvement_value"
-        "total_assessed_value":  "total_assessed_value"
-        "market_value_year":  "market_value_year"
-        "market_land_value":  "market_land_value"
-        "market_improvement_value":  "market_improvement_value"
-        "total_market_value":  "total_market_value"
-        "lot_frontage":  "lot_frontage"
-        "lot_depth":  "lot_depth"
-        "lot_size_unit":  "lot_size_unit"
-        "zoning":  "zoning"
-        "building_class":  "building_class"
-        "year_built":  "year_built"
-        "no_of_stories":  "no_of_stories"
-        "no_of_units":  "no_of_units"
-        "last_sale_date":  "last_sale_date"
-        "last_sale_price":  "last_sale_price"
-        "last_arms_length_sale_date":  "last_arms_length_sale_date"
-        "last_arms_length_sale_price":  "last_arms_length_sale_price"
-        "prior_arms_length_sale_date":  "prior_arms_length_sale_date"
-        "prior_arms_length_sale_price":  "prior_arms_length_sale_price"
-        "legal_city":  "legal_city"
-        "legal_block":  "legal_block"
-        "legal_lot_number":  "legal_lot_number"
-        "legal_section":  "legal_section"
-        "legal_district":  "legal_district"
-        "legal_unit":  "legal_unit"
-        "legal_subdivision_name":  "legal_subdivision_name"
-        "legal_phase_number":  "legal_phase_number"
-        "legal_tract_number":  "legal_tract_number"
-        "legal_section_township_range_meridian":  "legal_section_township_range_meridian"
-        "legal_assessors_map_ref":  "legal_assessors_map_ref"
-        "legal_brief_desc":  "legal_brief_desc"
-        "current_owner":  "current_owner"
-        "mailing_care_of":  "mailing_care_of"
-        "mailing_street_address":  "mailing_street_address"
-        "mailing_city_state":  "mailing_city_state"
-        "mailing_zip":  "mailing_zip"
-        "owner_occupied":  "owner_occupied"
-        "loan1_contract_date":  "loan1_contract_date"
-        "loan1_recording_date":  "loan1_recording_date"
-        "loan1_amount":  "loan1_amount"
-        "loan1_due_date":  "loan1_due_date"
-        "loan1_type":  "loan1_type"
-        "loan2_contract_date":  "loan2_contract_date"
-        "loan2_recording_date":  "loan2_recording_date"
-        "loan2_amount":  "loan2_amount"
-        "loan2_due_date":  "loan2_due_date"
-        "loan2_type":  "loan2_type"
-        "municipality":  ""
-        "tags":  ""
-        "bids":  ""
-        "notes":  ""
-        "additional_csv_data":  "additional_csv_data"
+        ["lien_ID",
+        "row_number",
+        "state_name",
+        "county_name",
+        "full_fips_code",
+        "apn",
+        "parcel_id",
+        "block",
+        "lot",
+        "qualifier",
+        "addl_lots",
+        "tax_type",
+        "list_item_reference",
+        "client_provided_parcel_id",
+        "certificate_no",
+        "face_value",
+        "redemptive_value",
+        "principal",
+        "tax_year",
+        "total_yearly_tax",
+        "location_street_address_1",
+        "location_street_address_2",
+        "location_city_state_zip",
+        "location_city",
+        "location_zip",
+        "longitude",
+        "latitude",
+        "county_land_use",
+        "county_land_use_desc",
+        "standardized_land_use",
+        "standardized_land_use_desc",
+        "county_held",
+        "prop_record_year",
+        "lien_rollup",
+        "location_house_number",
+        "location_street_dir_left",
+        "location_street_name",
+        "location_street_suffix",
+        "location_street_dir_right",
+        "location_unit_number",
+        "legal_status",
+        "interest_rate",
+        "penalty_rate",
+        "penalty_amount",
+        "premium_overbid",
+        "overbid_interest_rate",
+        "original_sale_auction_date",
+        "date_purchased_from_issuer",
+        "issuer",
+        "sub",
+        "assessment_year",
+        "assessed_land_value",
+        "assessed_improvement_value",
+        "total_assessed_value",
+        "market_value_year",
+        "market_land_value",
+        "market_improvement_value",
+        "total_market_value",
+        "lot_frontage",
+        "lot_depth",
+        "lot_size_unit",
+        "zoning",
+        "building_class",
+        "year_built",
+        "no_of_stories",
+        "no_of_units",
+        "last_sale_date",
+        "last_sale_price",
+        "last_arms_length_sale_date",
+        "last_arms_length_sale_price",
+        "prior_arms_length_sale_date",
+        "prior_arms_length_sale_price",
+        "legal_city",
+        "legal_block",
+        "legal_lot_number",
+        "legal_section",
+        "legal_district",
+        "legal_unit",
+        "legal_subdivision_name",
+        "legal_phase_number",
+        "legal_tract_number",
+        "legal_section_township_range_meridian",
+        "legal_assessors_map_ref",
+        "legal_brief_desc",
+        "current_owner",
+        "mailing_care_of",
+        "mailing_street_address",
+        "mailing_city_state",
+        "mailing_zip",
+        "owner_occupied",
+        "loan1_contract_date",
+        "loan1_recording_date",
+        "loan1_amount",
+        "loan1_due_date",
+        "loan1_type",
+        "loan2_contract_date",
+        "loan2_recording_date",
+        "loan2_amount",
+        "loan2_due_date",
+        "loan2_type",
+        "municipality",
+        "tags",
+        "bids",
+        "notes",
+        "additional_csv_data"]
     "filler_row_count": 1
     "initial_data": []
 
 "lumentum":
     "headers":
-        "CountyName": "county_name"
-        "BatchNumber": ""
-        "AdvNumber": ""
-        "CertificateNumber": "certificate_no"
-        "NALFormat": ""
-        "ALTKEYFormat": ""
-        "PropertyAppraiserFormat": ""
-        "TaxCollectorFormat": "apn"
-        "ExtraFormat": ""
-        "AuctionFormat": "parcel_id"
-        "NewParcel": ""
-        "ReParceled": ""
-        "CertYear": ""
-        "TaxYear": "tax_year"
-        "FaceAmt": "face_value"
-        "MktValue": "total_market_value"
-        "LandValue": "market_land_value"
-        "StructureValue": ""
-        "ZoningCode": "standardized_land_use"
-        "DigipanZoning": "county_land_use_desc"
-        "ZoningUseCode": "standardized_land_use_desc"
-        "HX": "" #?
-        "PropertySize": ""
-        "SfStructure": ""
-        "YearBuilt": "year_built"
-        "ImprovedQuality": ""
-        "ConstructionClass": ""
-        "NumberOfBuildings": ""
-        "NumberOfResUnits": "no_of_units"
-        "MultiSale": ""
-        "SalesHistoryAmount": ""
-        "SalesHistoryYear": ""
-        "SuperiorLien": ""
-        "LisPendens": ""
-        "Environmental": ""
-        "CDDName": ""
-        "BondStatus": ""
-        "TotalBondAmount": ""
-        "LastDateUpdated": ""
-        "LenderName": ""
-        "LenderAmount": ""
-        "LenderType": ""
-        "LoanType": "loan1_type"
-        "LoanRecordingDate": "loan1_recording_date"
-        "LoanDueDate": "loan1_due_date"
-        "Owner": "current_owner"
-        "OwnerType": ""
-        "OwnerChange": ""
-        "PropertyAddress": "location_street_address_1"
-        "PropertyCity": "location_city"
-        "PropertyState": "state_name"
-        "PropertyZip": "location_zip"
-        "MailingAddress": "mailing_street_address"
-        "MailingCity": "mailing_city_state"
-        "MailState": ""
-        "MailingZip": "mailing_zip"
-        "LegalAddress": ""
-        "BackTaxLastUpdated": ""
-        "CertHolderType": ""
-        "TaxDeedHistory": ""
-        "BackTaxOpenCount": ""
-        "BackTaxClosedCount": ""
-        "RollupFaceAmount": ""
-        "Rollupinterest": ""
-        "RollupTotal": ""
-        "SAL_DATE1": ""
-        "DEL_YEAR1": ""
-        "FACE_AMT1": ""
-        "CER_NUM1": ""
-        "INT_RATE1": ""
-        "CERT_HOLDER_TYPE1": ""
-        "CER_STAT1": ""
-        "RED_DATE1": ""
-        "MONTHS_OPEN1": ""
-        "BIDDER_NUMBER1": ""
-        "BIDDER_NAME1": ""
-        "TAX_DEED1": ""
-        "SAL_DATE2": ""
-        "DEL_YEAR2": ""
-        "FACE_AMT2": ""
-        "CER_NUM2": ""
-        "INT_RATE2": ""
-        "CERT_HOLDER_TYPE2": ""
-        "CER_STAT2": ""
-        "RED_DATE2": ""
-        "MONTHS_OPEN2": ""
-        "BIDDER_NUMBER2": ""
-        "BIDDER_NAME2": ""
-        "TAX_DEED2": ""
-        "SAL_DATE3": ""
-        "DEL_YEAR3": ""
-        "FACE_AMT3": ""
-        "CER_NUM3": ""
-        "INT_RATE3": ""
-        "CERT_HOLDER_TYPE3": ""
-        "CER_STAT3": ""
-        "RED_DATE3": ""
-        "MONTHS_OPEN3": ""
-        "BIDDER_NUMBER3": ""
-        "BIDDER_NAME3": ""
-        "TAX_DEED3": ""
-        "SAL_DATE4": ""
-        "DEL_YEAR4": ""
-        "FACE_AMT4": ""
-        "CER_NUM4": ""
-        "INT_RATE4": ""
-        "CERT_HOLDER_TYPE4": ""
-        "CER_STAT4": ""
-        "RED_DATE4": ""
-        "MONTHS_OPEN4": ""
-        "BIDDER_NUMBER4": ""
-        "BIDDER_NAME4": ""
-        "TAX_DEED4": ""
-        "SAL_DATE5": ""
-        "DEL_YEAR5": ""
-        "FACE_AMT5": ""
-        "CER_NUM5": ""
-        "INT_RATE5": ""
-        "CERT_HOLDER_TYPE5": ""
-        "CER_STAT5": ""
-        "RED_DATE5": ""
-        "MONTHS_OPEN5": ""
-        "BIDDER_NUMBER5": ""
-        "BIDDER_NAME5": ""
-        "TAX_DEED5": ""
-        "SAL_DATE6": ""
-        "DEL_YEAR6": ""
-        "FACE_AMT6": ""
-        "CER_NUM6": ""
-        "INT_RATE6": ""
-        "CERT_HOLDER_TYPE6": ""
-        "CER_STAT6": ""
-        "RED_DATE6": ""
-        "MONTHS_OPEN6": ""
-        "BIDDER_NUMBER6": ""
-        "BIDDER_NAME6": ""
-        "TAX_DEED6": ""
-        "SAL_DATE7": ""
-        "DEL_YEAR7": ""
-        "FACE_AMT7": ""
-        "CER_NUM7": ""
-        "INT_RATE7": ""
-        "CERT_HOLDER_TYPE7": ""
-        "CER_STAT7": ""
-        "RED_DATE7": ""
-        "MONTHS_OPEN7": ""
-        "BIDDER_NUMBER7": ""
-        "BIDDER_NAME7": ""
-        "TAX_DEED7": ""
-        "SAL_DATE8": ""
-        "DEL_YEAR8": ""
-        "FACE_AMT8": ""
-        "CER_NUM8": ""
-        "INT_RATE8": ""
-        "CERT_HOLDER_TYPE8": ""
-        "CER_STAT8": ""
-        "RED_DATE8": ""
-        "MONTHS_OPEN8": ""
-        "BIDDER_NUMBER8": ""
-        "BIDDER_NAME8": ""
-        "TAX_DEED8": ""
-        "SAL_DATE9": ""
-        "DEL_YEAR9": ""
-        "FACE_AMT9": ""
-        "CER_NUM9": ""
-        "INT_RATE9": ""
-        "CERT_HOLDER_TYPE9": ""
-        "CER_STAT9": ""
-        "RED_DATE9": ""
-        "MONTHS_OPEN9": ""
-        "BIDDER_NUMBER9": ""
-        "BIDDER_NAME9": ""
-        "TAX_DEED9": ""
-        "SAL_DATE10": ""
-        "DEL_YEAR10": ""
-        "FACE_AMT10": ""
-        "CER_NUM10": ""
-        "INT_RATE10": ""
-        "CERT_HOLDER_TYPE10": ""
-        "CER_STAT10": ""
-        "RED_DATE10": ""
-        "MONTHS_OPEN10": ""
-        "BIDDER_NUMBER10": ""
-        "BIDDER_NAME10": ""
-        "TAX_DEED10": ""
-        "SAL_DATE11": ""
-        "DEL_YEAR11": ""
-        "FACE_AMT11": ""
-        "CER_NUM11": ""
-        "INT_RATE11": ""
-        "CERT_HOLDER_TYPE11": ""
-        "CER_STAT11": ""
-        "RED_DATE11": ""
-        "MONTHS_OPEN11": ""
-        "BIDDER_NUMBER11": ""
-        "BIDDER_NAME11": ""
-        "TAX_DEED11": ""
-        "SAL_DATE12": ""
-        "DEL_YEAR12": ""
-        "FACE_AMT12": ""
-        "CER_NUM12": ""
-        "INT_RATE12": ""
-        "CERT_HOLDER_TYPE12": ""
-        "CER_STAT12": ""
-        "RED_DATE12": ""
-        "MONTHS_OPEN12": ""
-        "BIDDER_NUMBER12": ""
-        "BIDDER_NAME12": ""
-        "TAX_DEED12": ""
-        "SAL_DATE13": ""
-        "DEL_YEAR13": ""
-        "FACE_AMT13": ""
-        "CER_NUM13": ""
-        "INT_RATE13": ""
-        "CERT_HOLDER_TYPE13": ""
-        "CER_STAT13": ""
-        "RED_DATE13": ""
-        "MONTHS_OPEN13": ""
-        "BIDDER_NUMBER13": ""
-        "BIDDER_NAME13": ""
-        "TAX_DEED13": ""
-        "SAL_DATE14": ""
-        "DEL_YEAR14": ""
-        "FACE_AMT14": ""
-        "CER_NUM14": ""
-        "INT_RATE14": ""
-        "CERT_HOLDER_TYPE14": ""
-        "CER_STAT14": ""
-        "RED_DATE14": ""
-        "MONTHS_OPEN14": ""
-        "BIDDER_NUMBER14": ""
-        "BIDDER_NAME14": ""
-        "TAX_DEED14": ""
-        "SAL_DATE15": ""
-        "DEL_YEAR15": ""
-        "FACE_AMT15": ""
-        "CER_NUM15": ""
-        "INT_RATE15": ""
-        "CERT_HOLDER_TYPE15": ""
-        "CER_STAT15": ""
-        "RED_DATE15": ""
-        "MONTHS_OPEN15": ""
-        "BIDDER_NUMBER15": ""
-        "BIDDER_NAME15": ""
-        "TAX_DEED15": ""
-        "SAL_DATE16": ""
-        "DEL_YEAR16": ""
-        "FACE_AMT16": ""
-        "CER_NUM16": ""
-        "INT_RATE16": ""
-        "CERT_HOLDER_TYPE16": ""
-        "CER_STAT16": ""
-        "RED_DATE16": ""
-        "MONTHS_OPEN16": ""
-        "BIDDER_NUMBER16": ""
-        "BIDDER_NAME16": ""
-        "TAX_DEED16": ""
-        "SAL_DATE17": ""
-        "DEL_YEAR17": ""
-        "FACE_AMT17": ""
-        "CER_NUM17": ""
-        "INT_RATE17": ""
-        "CERT_HOLDER_TYPE17": ""
-        "CER_STAT17": ""
-        "RED_DATE17": ""
-        "MONTHS_OPEN17": ""
-        "BIDDER_NUMBER17": ""
-        "BIDDER_NAME17": ""
-        "TAX_DEED17": ""
-        "SAL_DATE18": ""
-        "DEL_YEAR18": ""
-        "FACE_AMT18": ""
-        "CER_NUM18": ""
-        "INT_RATE18": ""
-        "CERT_HOLDER_TYPE18": ""
-        "CER_STAT18": ""
-        "RED_DATE18": ""
-        "MONTHS_OPEN18": ""
-        "BIDDER_NUMBER18": ""
-        "BIDDER_NAME18": ""
-        "TAX_DEED18": ""
-        "SAL_DATE19": ""
-        "DEL_YEAR19": ""
-        "FACE_AMT19": ""
-        "CER_NUM19": ""
-        "INT_RATE19": ""
-        "CERT_HOLDER_TYPE19": ""
-        "CER_STAT19": ""
-        "RED_DATE19": ""
-        "MONTHS_OPEN19": ""
-        "BIDDER_NUMBER19": ""
-        "BIDDER_NAME19": ""
-        "TAX_DEED19": ""
-        "SAL_DATE20": ""
-        "DEL_YEAR20": ""
-        "FACE_AMT20": ""
-        "CER_NUM20": ""
-        "INT_RATE20": ""
-        "CERT_HOLDER_TYPE20": ""
-        "CER_STAT20": ""
-        "RED_DATE20": ""
-        "MONTHS_OPEN20": ""
-        "BIDDER_NUMBER20": ""
-        "BIDDER_NAME20": ""
-        "TAX_DEED20": ""
+        ["CountyName",
+        "BatchNumber",
+        "AdvNumber",
+        "CertificateNumber",
+        "NALFormat",
+        "ALTKEYFormat",
+        "PropertyAppraiserFormat",
+        "TaxCollectorFormat",
+        "ExtraFormat",
+        "AuctionFormat",
+        "NewParcel",
+        "ReParceled",
+        "CertYear",
+        "TaxYear",
+        "FaceAmt",
+        "MktValue",
+        "LandValue",
+        "StructureValue",
+        "ZoningCode",
+        "DigipanZoning",
+        "ZoningUseCode",
+        "HX",
+        "PropertySize",
+        "SfStructure",
+        "YearBuilt",
+        "ImprovedQuality",
+        "ConstructionClass",
+        "NumberOfBuildings",
+        "NumberOfResUnits",
+        "MultiSale",
+        "SalesHistoryAmount",
+        "SalesHistoryYear",
+        "SuperiorLien",
+        "LisPendens",
+        "Environmental",
+        "CDDName",
+        "BondStatus",
+        "TotalBondAmount",
+        "LastDateUpdated",
+        "LenderName",
+        "LenderAmount",
+        "LenderType",
+        "LoanType",
+        "LoanRecordingDate",
+        "LoanDueDate",
+        "Owner",
+        "OwnerType",
+        "OwnerChange",
+        "PropertyAddress",
+        "PropertyCity",
+        "PropertyState",
+        "PropertyZip",
+        "MailingAddress",
+        "MailingCity",
+        "MailState",
+        "MailingZip",
+        "LegalAddress",
+        "BackTaxLastUpdated",
+        "CertHolderType",
+        "TaxDeedHistory",
+        "BackTaxOpenCount",
+        "BackTaxClosedCount",
+        "RollupFaceAmount",
+        "Rollupinterest",
+        "RollupTotal",
+        "SAL_DATE1",
+        "DEL_YEAR1",
+        "FACE_AMT1",
+        "CER_NUM1",
+        "INT_RATE1",
+        "CERT_HOLDER_TYPE1",
+        "CER_STAT1",
+        "RED_DATE1",
+        "MONTHS_OPEN1",
+        "BIDDER_NUMBER1",
+        "BIDDER_NAME1",
+        "TAX_DEED1",
+        "SAL_DATE2",
+        "DEL_YEAR2",
+        "FACE_AMT2",
+        "CER_NUM2",
+        "INT_RATE2",
+        "CERT_HOLDER_TYPE2",
+        "CER_STAT2",
+        "RED_DATE2",
+        "MONTHS_OPEN2",
+        "BIDDER_NUMBER2",
+        "BIDDER_NAME2",
+        "TAX_DEED2",
+        "SAL_DATE3",
+        "DEL_YEAR3",
+        "FACE_AMT3",
+        "CER_NUM3",
+        "INT_RATE3",
+        "CERT_HOLDER_TYPE3",
+        "CER_STAT3",
+        "RED_DATE3",
+        "MONTHS_OPEN3",
+        "BIDDER_NUMBER3",
+        "BIDDER_NAME3",
+        "TAX_DEED3",
+        "SAL_DATE4",
+        "DEL_YEAR4",
+        "FACE_AMT4",
+        "CER_NUM4",
+        "INT_RATE4",
+        "CERT_HOLDER_TYPE4",
+        "CER_STAT4",
+        "RED_DATE4",
+        "MONTHS_OPEN4",
+        "BIDDER_NUMBER4",
+        "BIDDER_NAME4",
+        "TAX_DEED4",
+        "SAL_DATE5",
+        "DEL_YEAR5",
+        "FACE_AMT5",
+        "CER_NUM5",
+        "INT_RATE5",
+        "CERT_HOLDER_TYPE5",
+        "CER_STAT5",
+        "RED_DATE5",
+        "MONTHS_OPEN5",
+        "BIDDER_NUMBER5",
+        "BIDDER_NAME5",
+        "TAX_DEED5",
+        "SAL_DATE6",
+        "DEL_YEAR6",
+        "FACE_AMT6",
+        "CER_NUM6",
+        "INT_RATE6",
+        "CERT_HOLDER_TYPE6",
+        "CER_STAT6",
+        "RED_DATE6",
+        "MONTHS_OPEN6",
+        "BIDDER_NUMBER6",
+        "BIDDER_NAME6",
+        "TAX_DEED6",
+        "SAL_DATE7",
+        "DEL_YEAR7",
+        "FACE_AMT7",
+        "CER_NUM7",
+        "INT_RATE7",
+        "CERT_HOLDER_TYPE7",
+        "CER_STAT7",
+        "RED_DATE7",
+        "MONTHS_OPEN7",
+        "BIDDER_NUMBER7",
+        "BIDDER_NAME7",
+        "TAX_DEED7",
+        "SAL_DATE8",
+        "DEL_YEAR8",
+        "FACE_AMT8",
+        "CER_NUM8",
+        "INT_RATE8",
+        "CERT_HOLDER_TYPE8",
+        "CER_STAT8",
+        "RED_DATE8",
+        "MONTHS_OPEN8",
+        "BIDDER_NUMBER8",
+        "BIDDER_NAME8",
+        "TAX_DEED8",
+        "SAL_DATE9",
+        "DEL_YEAR9",
+        "FACE_AMT9",
+        "CER_NUM9",
+        "INT_RATE9",
+        "CERT_HOLDER_TYPE9",
+        "CER_STAT9",
+        "RED_DATE9",
+        "MONTHS_OPEN9",
+        "BIDDER_NUMBER9",
+        "BIDDER_NAME9",
+        "TAX_DEED9",
+        "SAL_DATE10",
+        "DEL_YEAR10",
+        "FACE_AMT10",
+        "CER_NUM10",
+        "INT_RATE10",
+        "CERT_HOLDER_TYPE10",
+        "CER_STAT10",
+        "RED_DATE10",
+        "MONTHS_OPEN10",
+        "BIDDER_NUMBER10",
+        "BIDDER_NAME10",
+        "TAX_DEED10",
+        "SAL_DATE11",
+        "DEL_YEAR11",
+        "FACE_AMT11",
+        "CER_NUM11",
+        "INT_RATE11",
+        "CERT_HOLDER_TYPE11",
+        "CER_STAT11",
+        "RED_DATE11",
+        "MONTHS_OPEN11",
+        "BIDDER_NUMBER11",
+        "BIDDER_NAME11",
+        "TAX_DEED11",
+        "SAL_DATE12",
+        "DEL_YEAR12",
+        "FACE_AMT12",
+        "CER_NUM12",
+        "INT_RATE12",
+        "CERT_HOLDER_TYPE12",
+        "CER_STAT12",
+        "RED_DATE12",
+        "MONTHS_OPEN12",
+        "BIDDER_NUMBER12",
+        "BIDDER_NAME12",
+        "TAX_DEED12",
+        "SAL_DATE13",
+        "DEL_YEAR13",
+        "FACE_AMT13",
+        "CER_NUM13",
+        "INT_RATE13",
+        "CERT_HOLDER_TYPE13",
+        "CER_STAT13",
+        "RED_DATE13",
+        "MONTHS_OPEN13",
+        "BIDDER_NUMBER13",
+        "BIDDER_NAME13",
+        "TAX_DEED13",
+        "SAL_DATE14",
+        "DEL_YEAR14",
+        "FACE_AMT14",
+        "CER_NUM14",
+        "INT_RATE14",
+        "CERT_HOLDER_TYPE14",
+        "CER_STAT14",
+        "RED_DATE14",
+        "MONTHS_OPEN14",
+        "BIDDER_NUMBER14",
+        "BIDDER_NAME14",
+        "TAX_DEED14",
+        "SAL_DATE15",
+        "DEL_YEAR15",
+        "FACE_AMT15",
+        "CER_NUM15",
+        "INT_RATE15",
+        "CERT_HOLDER_TYPE15",
+        "CER_STAT15",
+        "RED_DATE15",
+        "MONTHS_OPEN15",
+        "BIDDER_NUMBER15",
+        "BIDDER_NAME15",
+        "TAX_DEED15",
+        "SAL_DATE16",
+        "DEL_YEAR16",
+        "FACE_AMT16",
+        "CER_NUM16",
+        "INT_RATE16",
+        "CERT_HOLDER_TYPE16",
+        "CER_STAT16",
+        "RED_DATE16",
+        "MONTHS_OPEN16",
+        "BIDDER_NUMBER16",
+        "BIDDER_NAME16",
+        "TAX_DEED16",
+        "SAL_DATE17",
+        "DEL_YEAR17",
+        "FACE_AMT17",
+        "CER_NUM17",
+        "INT_RATE17",
+        "CERT_HOLDER_TYPE17",
+        "CER_STAT17",
+        "RED_DATE17",
+        "MONTHS_OPEN17",
+        "BIDDER_NUMBER17",
+        "BIDDER_NAME17",
+        "TAX_DEED17",
+        "SAL_DATE18",
+        "DEL_YEAR18",
+        "FACE_AMT18",
+        "CER_NUM18",
+        "INT_RATE18",
+        "CERT_HOLDER_TYPE18",
+        "CER_STAT18",
+        "RED_DATE18",
+        "MONTHS_OPEN18",
+        "BIDDER_NUMBER18",
+        "BIDDER_NAME18",
+        "TAX_DEED18",
+        "SAL_DATE19",
+        "DEL_YEAR19",
+        "FACE_AMT19",
+        "CER_NUM19",
+        "INT_RATE19",
+        "CERT_HOLDER_TYPE19",
+        "CER_STAT19",
+        "RED_DATE19",
+        "MONTHS_OPEN19",
+        "BIDDER_NUMBER19",
+        "BIDDER_NAME19",
+        "TAX_DEED19",
+        "SAL_DATE20",
+        "DEL_YEAR20",
+        "FACE_AMT20",
+        "CER_NUM20",
+        "INT_RATE20",
+        "CERT_HOLDER_TYPE20",
+        "CER_STAT20",
+        "RED_DATE20",
+        "MONTHS_OPEN20",
+        "BIDDER_NUMBER20",
+        "BIDDER_NAME20",
+        "TAX_DEED20"]
     "filler_row_count": 0
     "initial_data": []
+
