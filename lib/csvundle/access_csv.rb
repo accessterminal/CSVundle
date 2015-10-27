@@ -2,11 +2,31 @@ require 'csv'
 require 'yaml'
 
 module CSVundle
-  class GenericCSV
-    attr_accessor :rows, :columns
+  class AccessCSV
+    attr_accessor :setup_data, :rows, :columns
 
-    def initialize
+    def initialize(type)
+      @setup_data = YAML.load(File.read("config/csv_setup_data.yml")).fetch(type.to_s)
       @rows, @columns = [], []
+      @normalized_columns = normalized_columns
+      @columns = @setup_data['headers']
+      @type = type if type_usable? type
+      setup_by_type
+    end
+
+    def serve(mapped_data)
+      mapped_data.each { |row| @rows << row }
+      CSV.generate { |csv| csv << @columns; @rows.each { |r| csv << r } }
+    end
+
+    def setup_by_type
+      @rows << @setup_data['initial_data'] if @setup_data['initial_data'].any?
+      @setup_data['filler_row_count'].times { @rows << [] }
+    end
+    
+    def type_usable?(type)
+      [:lienalytics, :grant_street, :lumentum, :mtag, :old_lienalytics,
+       :real_auction, :tsr, :tsr_js].include? type.to_sym
     end
 
     def viperize(symbol)
@@ -25,20 +45,6 @@ module CSVundle
 
     def rows_for(column)
       { "#{column}": @rows.map { |row| row[@columns.index(column)] } }
-    end
-  end
-
-  class AccessCSV < GenericCSV
-    attr_reader :setup_data
-    def initialize(type)
-      @setup_data = YAML.load(File.read("config/csv_setup_data.yml")).fetch(type.to_s)
-      @columns = @setup_data['headers']
-      @type = type if type_usable? type
-    end
-    
-    def type_usable?(type)
-      [:lienalytics, :grant_street, :lumentum, :mtag, :old_lienalytics,
-       :real_auction, :tsr, :tsr_js].include? type.to_sym
     end
   end
 end
