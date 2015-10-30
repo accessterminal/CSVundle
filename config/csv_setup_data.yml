@@ -109,7 +109,7 @@ lienalytics:
     - additional_csv_data
   initial_data:
     - "Lienalytics Custom List"
-    - "Downloaded On `ruby -e 'require \"date\";Date.today.to_s'`"
+    - <%= require 'date'; "#{Date.today.to_s}" %>
 lumentum:
   filler_row_count: 0
   headers:

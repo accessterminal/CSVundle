@@ -6,7 +6,7 @@ module CSVundle
     attr_accessor :setup_data, :rows, :columns
 
     def initialize(type)
-      @setup_data = YAML.load(File.read("config/csv_setup_data.yml")).fetch(type.to_s)
+      @setup_data = YAML.load(ERB.new(File.read("config/csv_setup_data.yml")).result).fetch(type.to_s)
       @rows, @columns = [], []
       @normalized_columns = normalized_columns
       @columns = @setup_data['headers']
