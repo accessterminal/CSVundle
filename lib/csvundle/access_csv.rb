@@ -3,11 +3,11 @@ require 'yaml'
 
 module CSVundle
   class AccessCSV
-    attr_accessor :setup_data, :rows, :columns
+    attr_accessor :setup_data, :rows, :columns, :full_csv
 
     def initialize(type)
       @setup_data = YAML.load(ERB.new(File.read("config/csv_setup_data.yml")).result).fetch(type.to_s)
-      @rows, @columns = [], []
+      @rows, @columns, @full_csv = [], [], []
       @normalized_columns = normalized_columns
       @columns = @setup_data['headers']
       @type = type if type_usable? type
@@ -16,14 +16,15 @@ module CSVundle
 
     def serve(mapped_data)
       mapped_data.each { |row| @rows << row }
-      CSV.generate { |csv| csv << @columns; @rows.each { |r| csv << r } }
+      CSV.generate { |csv| @full_csv.each { |row| csv << row } }
     end
 
     def setup_by_type
-      @rows << @setup_data['initial_data'] if @setup_data['initial_data'].any?
-      @setup_data['filler_row_count'].times { @rows << [] }
+      @full_csv << @setup_data['initial_data'] if @setup_data['initial_data'].any?
+      @setup_data['filler_row_count'].times { @full_csv<< [] }
+      @full_csv << @columns
     end
-    
+
     def type_usable?(type)
       [:lienalytics, :grant_street, :lumentum, :mtag, :old_lienalytics,
        :real_auction, :tsr, :tsr_js].include? type.to_sym
