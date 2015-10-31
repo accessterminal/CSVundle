@@ -1,3 +1,4 @@
+require 'date'
 require 'csv'
 require 'yaml'
 
@@ -6,7 +7,7 @@ module CSVundle
     attr_accessor :setup_data, :rows, :columns, :full_csv
 
     def initialize(type)
-      @setup_data = YAML.load(ERB.new(File.read("config/csv_setup_data.yml")).result).fetch(type.to_s)
+      @setup_data = YAML.load(ERB.new(File.read("#{GEM_ROOT}/config/csv_setup_data.yml")).result).fetch(type.to_s)
       @rows, @columns, @full_csv = [], [], []
       @normalized_columns = normalized_columns
       @columns = @setup_data['headers']
