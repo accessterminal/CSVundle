@@ -109,7 +109,7 @@ lienalytics:
     - additional_csv_data
   initial_data:
     - "Lienalytics Custom List"
-    - <%= require 'date'; "#{Date.today.to_s}" %>
+    - <%= "Downloaded On #{Date.today}" %>
 lumentum:
   filler_row_count: 0
   headers:
