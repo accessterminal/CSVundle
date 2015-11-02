@@ -606,6 +606,7 @@ old_lienalytics:
     - optional_field_8
     - optional_field_9
     - optional_field_10
+  initial_data: []
 
 other:
   headers: []
