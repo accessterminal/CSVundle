@@ -21,9 +21,10 @@ module CSVundle
     end
 
     def setup_by_type
-      @full_csv << @setup_data['initial_data'] if @setup_data['initial_data'].any?
-      @setup_data['filler_row_count'].times { @full_csv<< [] }
-      @full_csv << @columns
+      full_csv << setup_data['initial_data'] if setup_data['initial_data'].any?
+      setup_data['filler_row_count'].times { full_csv << [] }
+      setup_data['filler_row_count'].times { rows << [] }
+      full_csv << columns
     end
 
     def type_usable?(type)
