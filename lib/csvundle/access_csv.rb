@@ -17,6 +17,7 @@ module CSVundle
 
     def serve(mapped_data)
       mapped_data.each { |row| @rows << row }
+      mapped_data.each { |row| @full_csv << row }
       CSV.generate { |csv| @full_csv.each { |row| csv << row } }
     end
 
