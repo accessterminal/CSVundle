@@ -1,4 +1,22 @@
 ---
+grant_street:
+  filler_row_count: 0
+  headers:
+    - "Adv No."
+    - "Batch No."
+    - "Account No."
+    - "Face Amount"
+    - Bid
+  initial_data: []
+grant_street_group:
+  filler_row_count: 0
+  headers:
+    - "Adv No."
+    - "Batch No."
+    - "Account No."
+    - "Face Amount"
+    - Bid
+  initial_data: []
 lienalytics:
   filler_row_count: 1
   headers:
@@ -110,7 +128,127 @@ lienalytics:
   initial_data:
     - "Lienalytics Custom List"
     - <%= "Downloaded On #{Date.today}" %>
-
+liencloud:
+  filler_row_count: 0
+  headers:
+    - RowType
+    - "LienLog ID"
+    - "Type of Instrument"
+    - "Bill Type"
+    - "Start Tax Year"
+    - "End Tax Year"
+    - "State code"
+    - "Zip Code"
+    - County
+    - "City name"
+    - "Address 1"
+    - "Address 2"
+    - "Parcel ID (APN)"
+    - Block
+    - Lot
+    - Qualifier
+    - Company
+    - "Lien holder"
+    - "Lien holder Address"
+    - Portfolios
+    - "Certificate #"
+    - "Assigned ID"
+    - "SAK #"
+    - Certified?
+    - "Auction Date"
+    - "Auctioning County"
+    - "Auctioning Municipality"
+    - "Face Value"
+    - "Pay Subsequent Taxes?"
+    - "Premium Paid at Auction"
+    - "Bid Interest Rate"
+    - "Percent Ownership"
+    - Bidder
+    - "Date Recorded in County"
+    - "Record Clerk"
+    - "Record Clerk Primary Phone #"
+    - "Record Clerk Address"
+    - "Tax Collector/Assessor"
+    - "Tax Collector/Assessor Primary Phone #"
+    - "Tax Collector/Assessor Address"
+    - "Acquisition Date"
+    - "Acquisition Method"
+    - Assignor
+    - "Assignor Primary Email"
+    - "Assignor Primary Phone #"
+    - "Assignor Address"
+    - "Est. Market/Retail Value of Land"
+    - "Est. Market/Retail Value of Improvements"
+    - "Total Est. Market/Retail Value"
+    - "Tax Net Assessed Value of Land"
+    - "Tax Net Assessed Value of Improvements"
+    - "Total Tax Net Assessed Property Value"
+    - "Tax Abatements (If Any)"
+    - "Taxable Value After Abatements"
+    - "Current Tax Rate in County/Municipality"
+    - "Est. Annual Tax"
+    - "Equalization Ratio"
+    - "Property Class (Standardized)"
+    - "Property Owner"
+    - "Property Owner Address"
+    - "Last Sale Price"
+    - "Last Sale Date"
+    - "Est. Sq. Ft. of Land"
+    - "Est. Sq. Ft. of Improvements"
+    - "Status text"
+    - "Redemption Recorded at"
+    - "Write Off"
+    - "Investment Status"
+    - "Redemption Status"
+    - "Bankruptcy Status"
+    - "Foreclosure Status"
+    - "Redemption Period End Date"
+    - "Disposition Date"
+    - "Final Proceeds"
+    - "Unpaid Proceeds (Balance Due)"
+    - "Bankruptcy Attorney"
+    - "Bankruptcy attorney Address"
+    - "Date Sent to Attorney"
+    - "Attorney file #"
+    - "Bankruptcy Case Number"
+    - "Foreclosure Attorney Contact"
+    - "Foreclosure Attorney Address"
+    - "Attorney's File #"
+    - Assignee
+    - "Assignee Primary Email"
+    - "Assignee Primary Phone #"
+    - "Assignee Address"
+    - Rating
+    - "Rating Date"
+    - "Is There a Mortgage on This Property?"
+    - "Mortgage Source"
+    - "Mortgage Amount"
+    - "Mortgage Additional Information"
+    - "Any Known Environmental Issues?"
+    - "Environmental Issues Source"
+    - "Environmental Issues Description"
+    - "Is This Property Sloped or on a Hill?"
+    - "Property Sloped Source"
+    - "Property Sloped Description"
+    - "Homestead Exemption?"
+    - "Homestead Exemption Source"
+    - "Homestead Exemption Description"
+    - "Is This Property in a Designated Flood Zone?"
+    - "Flood Zone Source"
+    - "FEMA Flood Zone Designation"
+    - "Property Access by Road?"
+    - "Property Access by Road Source"
+    - "Performance As Of"
+    - "Calculated Redemption Value (All Items)"
+    - "Calculated Redemption Value (Paid Items)"
+    - "Accrued Interest (All Items)"
+    - "Accrued Interest (Paid Items)"
+    - "Total Investment (All Items)"
+    - "Total Investment (Paid Items)"
+    - "Effective Interest Rate (All Items)"
+    - "Effective Interest Rate (Paid Items)"
+    - "Related Liens"
+  initial_data: []
 lumentum:
   filler_row_count: 0
   headers:
@@ -420,10 +558,75 @@ lumentum:
     - BIDDER_NAME20
     - TAX_DEED20
   initial_data: []
-
+melissa_data:
+  filler_row_count: 0
+  headers:
+    - state_name
+    - county_name
+    - Municipality
+    - full_fips_code
+    - apn
+    - address
+    - City
+    - State
+    - ZIP
+    - MD_Parcel_FormattedAPN
+    - MD_Parcel_Zoning
+    - MD_Parcel_Range
+    - MD_Parcel_Township
+    - MD_Parcel_Section
+    - MD_Parcel_Quarter_Section
+    - MD_Parcel_LandUseCode
+    - MD_Parcel_CountyLandUse1
+    - MD_Parcel_CountyLandUse2
+    - MD_PropertyAddress_Address
+    - MD_PropertyAddress_Adress
+    - MD_PropertyAddress_City
+    - MD_PropertyAddress_State
+    - MD_PropertyAddress_Zip
+    - MD_PropertyAddress_Latitude
+    - MD_PropertyAddress_Longitude
+    - MD_ParsedPropertyAddress_Range
+    - MD_ParsedPropertyAddress_Predirectional
+    - MD_ParsedPropertyAddress_StreetName
+    - MD_ParsedPropertyAddress_Suffix
+    - MD_ParsedPropertyAddress_PostDirectional
+    - MDParsedPropertyAddress_SuiteName
+    - MDParsedPropertyAddress_SuiteRange
+    - MD_Owner_CorporateOwner
+    - MD_Owner_Name
+    - MD_Owner_Name2
+    - MD_OwnderAddress_Address
+    - MD_OwnerAddress_City
+    - MD_OwnerAddress_State
+    - MD_OwnderAddress_Zip
+    - MD_Values_AssessedTotalValue
+    - MD_Values_AssessedLandValue
+    - MD_Values_AssessedImprovementValue
+    - MD_Values_MarketTotalValue
+    - MD_Values_MarketLandValue
+    - MD_Values_MarketImprovementValue
+    - MD_Values_TaxAmount
+    - MD_Values_TaxYear
+    - MD_CurrentSale_RecordingDate
+    - MD_CurrentSale_SaleDate
+    - MD_CurrentSale_SalePrice
+    - MD_CurrentDeed_MortgageAmount
+    - MD_CurrentDeed_MortgageDate
+    - MD_CurrentDeed_MortgageLoanTypeCode
+    - MD_CurrentDeed_MortgageDueDate
+    - MD_CurrentDeed_SecontMortgageAmount
+    - MD_PriorSale_SaleDate
+    - MD_PriorSale_SalePrice
+    - MD_Lot_FrontFootage
+    - MD_Lot_DepthFootage
+    - MD_Building_YearBuilt
+    - MD_Building_BuildingCode
+    - MD_Building_Stories
+    - MD_Building_Units
+  initial_data: []
 mtag:
   filler_row_count: 0
-  initial_data: []
   headers:
     - Acq_Date
     - Apn_County
@@ -475,10 +678,9 @@ mtag:
     - Ass_imp
     - Ass_Land
     - Ass_Tot_Val
-
+  initial_data: []
 old_lienalytics:
   filler_row_count: 7
-  initial_data: []
   headers:
     - sort_no
     - list_item_id
@@ -609,24 +811,21 @@ old_lienalytics:
     - optional_field_8
     - optional_field_9
     - optional_field_10
-
+  initial_data: []
 other:
   headers: []
   initial_data: []
-
 real_auction:
   filler_row_count: 0
-  initial_data: []
   headers:
     - RA_ITEMID
     - ADVNUM
     - PARCEL
     - FACEVALUE
     - BID
-
+  initial_data: []
 tsr:
   filler_row_count: 8
-  initial_data: []
   headers:
     - TSRID
     - Sort_No
@@ -727,10 +926,9 @@ tsr:
     - Legal_Section_Township_Range_Meridian
     - Legal_Assessors_Map_Ref
     - Legal_Brief_Desc
-
+  initial_data: []
 tsr_nj:
   filler_row_count: 8
-  initial_data: []
   headers:
     - Sort_No
     - APN
@@ -811,145 +1009,4 @@ tsr_nj:
     - DIST1_100
     - DIST1_500
     - BFE_WSEL
-
-grant_street_group:
-  filler_row_count: 0
   initial_data: []
-  headers:
-    - "Adv No."
-    - "Batch No."
-    - "Account No."
-    - "Face Amount"
-    - "Bid"
-
-grant_street:
-  filler_row_count: 0
-  initial_data: []
-  headers:
-    - "Adv No."
-    - "Batch No."
-    - "Account No."
-    - "Face Amount"
-    - "Bid"
-
-liencloud:
-  filler_row_count: 0
-  initial_data: []
-  headers:
-    - "RowType"
-    - "LienLog ID"
-    - "Type of Instrument"
-    - "Bill Type"
-    - "Start Tax Year"
-    - "End Tax Year"
-    - "State code"
-    - "Zip Code"
-    - "County"
-    - "City name"
-    - "Address 1"
-    - "Address 2"
-    - "Parcel ID (APN)"
-    - "Block"
-    - "Lot"
-    - "Qualifier"
-    - "Company"
-    - "Lien holder"
-    - "Lien holder Address"
-    - "Portfolios"
-    - "Certificate #"
-    - "Assigned ID"
-    - "SAK #"
-    - "Certified?"
-    - "Auction Date"
-    - "Auctioning County"
-    - "Auctioning Municipality"
-    - "Face Value"
-    - "Pay Subsequent Taxes?"
-    - "Premium Paid at Auction"
-    - "Bid Interest Rate"
-    - "Percent Ownership"
-    - "Bidder"
-    - "Date Recorded in County"
-    - "Record Clerk"
-    - "Record Clerk Primary Phone #"
-    - "Record Clerk Address"
-    - "Tax Collector/Assessor"
-    - "Tax Collector/Assessor Primary Phone #"
-    - "Tax Collector/Assessor Address"
-    - "Acquisition Date"
-    - "Acquisition Method"
-    - "Assignor"
-    - "Assignor Primary Email"
-    - "Assignor Primary Phone #"
-    - "Assignor Address"
-    - "Est. Market/Retail Value of Land"
-    - "Est. Market/Retail Value of Improvements"
-    - "Total Est. Market/Retail Value"
-    - "Tax Net Assessed Value of Land"
-    - "Tax Net Assessed Value of Improvements"
-    - "Total Tax Net Assessed Property Value"
-    - "Tax Abatements (If Any)"
-    - "Taxable Value After Abatements"
-    - "Current Tax Rate in County/Municipality"
-    - "Est. Annual Tax"
-    - "Equalization Ratio"
-    - "Property Class (Standardized)"
-    - "Property Owner"
-    - "Property Owner Address"
-    - "Last Sale Price"
-    - "Last Sale Date"
-    - "Est. Sq. Ft. of Land"
-    - "Est. Sq. Ft. of Improvements"
-    - "Status text"
-    - "Redemption Recorded at"
-    - "Write Off"
-    - "Investment Status"
-    - "Redemption Status"
-    - "Bankruptcy Status"
-    - "Foreclosure Status"
-    - "Redemption Period End Date"
-    - "Disposition Date"
-    - "Final Proceeds"
-    - "Unpaid Proceeds (Balance Due)"
-    - "Bankruptcy Attorney"
-    - "Bankruptcy attorney Address"
-    - "Date Sent to Attorney"
-    - "Attorney file #"
-    - "Bankruptcy Case Number"
-    - "Foreclosure Attorney Contact"
-    - "Foreclosure Attorney Address"
-    - "Attorney's File #"
-    - "Assignee"
-    - "Assignee Primary Email"
-    - "Assignee Primary Phone #"
-    - "Assignee Address"
-    - "Rating"
-    - "Rating Date"
-    - "Is There a Mortgage on This Property?"
-    - "Mortgage Source"
-    - "Mortgage Amount"
-    - "Mortgage Additional Information"
-    - "Any Known Environmental Issues?"
-    - "Environmental Issues Source"
-    - "Environmental Issues Description"
-    - "Is This Property Sloped or on a Hill?"
-    - "Property Sloped Source"
-    - "Property Sloped Description"
-    - "Homestead Exemption?"
-    - "Homestead Exemption Source"
-    - "Homestead Exemption Description"
-    - "Is This Property in a Designated Flood Zone?"
-    - "Flood Zone Source"
-    - "FEMA Flood Zone Designation"
-    - "Property Access by Road?"
-    - "Property Access by Road Source"
-    - "Performance As Of"
-    - "Calculated Redemption Value (All Items)"
-    - "Calculated Redemption Value (Paid Items)"
-    - "Accrued Interest (All Items)"
-    - "Accrued Interest (Paid Items)"
-    - "Total Investment (All Items)"
-    - "Total Investment (Paid Items)"
-    - "Effective Interest Rate (All Items)"
-    - "Effective Interest Rate (Paid Items)"
-    - "Related Liens"
