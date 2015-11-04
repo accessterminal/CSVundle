@@ -2,815 +2,852 @@
 grant_street:
   filler_row_count: 0
   headers:
-    - "Adv No."
-    - "Batch No."
-    - "Account No."
-    - "Face Amount"
-    - Bid
-  initial_data: []
-grant_street_group:
-  filler_row_count: 0
-  headers:
-    - "Adv No."
-    - "Batch No."
-    - "Account No."
-    - "Face Amount"
-    - Bid
+      "Adv No.":
+      "Batch No.":
+      "Account No.":
+      "Face Amount": "face_value"
+      "Bid": "amount"
   initial_data: []
 lienalytics:
   filler_row_count: 1
   headers:
-    - lien_ID
-    - row_number
-    - state_name
-    - county_name
-    - full_fips_code
-    - apn
-    - parcel_id
-    - block
-    - lot
-    - qualifier
-    - addl_lots
-    - tax_type
-    - list_item_reference
-    - client_provided_parcel_id
-    - certificate_no
-    - face_value
-    - redemptive_value
-    - principal
-    - tax_year
-    - total_yearly_tax
-    - location_street_address_1
-    - location_street_address_2
-    - location_city_state_zip
-    - location_city
-    - location_zip
-    - longitude
-    - latitude
-    - county_land_use
-    - county_land_use_desc
-    - standardized_land_use
-    - standardized_land_use_desc
-    - county_held
-    - prop_record_year
-    - lien_rollup
-    - location_house_number
-    - location_street_dir_left
-    - location_street_name
-    - location_street_suffix
-    - location_street_dir_right
-    - location_unit_number
-    - legal_status
-    - interest_rate
-    - penalty_rate
-    - penalty_amount
-    - premium_overbid
-    - overbid_interest_rate
-    - original_sale_auction_date
-    - date_purchased_from_issuer
-    - issuer
-    - sub
-    - assessment_year
-    - assessed_land_value
-    - assessed_improvement_value
-    - total_assessed_value
-    - market_value_year
-    - market_land_value
-    - market_improvement_value
-    - total_market_value
-    - lot_frontage
-    - lot_depth
-    - lot_size_unit
-    - zoning
-    - building_class
-    - year_built
-    - no_of_stories
-    - no_of_units
-    - last_sale_date
-    - last_sale_price
-    - last_arms_length_sale_date
-    - last_arms_length_sale_price
-    - prior_arms_length_sale_date
-    - prior_arms_length_sale_price
-    - legal_city
-    - legal_block
-    - legal_lot_number
-    - legal_section
-    - legal_district
-    - legal_unit
-    - legal_subdivision_name
-    - legal_phase_number
-    - legal_tract_number
-    - legal_section_township_range_meridian
-    - legal_assessors_map_ref
-    - legal_brief_desc
-    - current_owner
-    - mailing_care_of
-    - mailing_street_address
-    - mailing_city_state
-    - mailing_zip
-    - owner_occupied
-    - loan1_contract_date
-    - loan1_recording_date
-    - loan1_amount
-    - loan1_due_date
-    - loan1_type
-    - loan2_contract_date
-    - loan2_recording_date
-    - loan2_amount
-    - loan2_due_date
-    - loan2_type
-    - municipality
-    - tags
-    - bids
-    - notes
-    - additional_csv_data
+    "lien_ID": "lien_ID"
+    "row_number": "row_number"
+    "state_name": "state_name"
+    "county_name": "county_name"
+    "full_fips_code": "full_fips_code"
+    "apn": "apn"
+    "parcel_id": "parcel_id"
+    "block": "block"
+    "lot": "lot"
+    "qualifier": "qualifier"
+    "addl_lots": "addl_lots"
+    "tax_type": "tax_type"
+    "list_item_reference": "list_item_reference"
+    "client_provided_parcel_id": "client_provided_parcel_id"
+    "certificate_no": "certificate_no"
+    "face_value": "face_value"
+    "redemptive_value": "redemptive_value"
+    "principal": "principal"
+    "tax_year": "tax_year"
+    "total_yearly_tax": "total_yearly_tax"
+    "location_street_address_1": "location_street_address_1"
+    "location_street_address_2": "location_street_address_2"
+    "location_city_state_zip": "location_city_state_zip"
+    "location_city": "location_city"
+    "location_zip": "location_zip"
+    "longitude": "longitude"
+    "latitude": "latitude"
+    "county_land_use": "county_land_use"
+    "county_land_use_desc": "county_land_use_desc"
+    "standardized_land_use": "standardized_land_use"
+    "standardized_land_use_desc": "standardized_land_use_desc"
+    "county_held": "county_held"
+    "prop_record_year": "prop_record_year"
+    "lien_rollup": "lien_rollup"
+    "location_house_number": "location_house_number"
+    "location_street_dir_left": "location_street_dir_left"
+    "location_street_name": "location_street_name"
+    "location_street_suffix": "location_street_suffix"
+    "location_street_dir_right": "location_street_dir_right"
+    "location_unit_number": "location_unit_number"
+    "legal_status": "legal_status"
+    "interest_rate": "interest_rate"
+    "penalty_rate": "penalty_rate"
+    "penalty_amount": "penalty_amount"
+    "premium_overbid": "premium_overbid"
+    "overbid_interest_rate": "overbid_interest_rate"
+    "original_sale_auction_date": "original_sale_auction_date"
+    "date_purchased_from_issuer": "date_purchased_from_issuer"
+    "issuer": "issuer"
+    "sub": "sub"
+    "assessment_year": "assessment_year"
+    "assessed_land_value": "assessed_land_value"
+    "assessed_improvement_value": "assessed_improvement_value"
+    "total_assessed_value": "total_assessed_value"
+    "market_value_year": "market_value_year"
+    "market_land_value": "market_land_value"
+    "market_improvement_value": "market_improvement_value"
+    "total_market_value": "total_market_value"
+    "lot_frontage": "lot_frontage"
+    "lot_depth": "lot_depth"
+    "lot_size_unit": "lot_size_unit"
+    "zoning": "zoning"
+    "building_class": "building_class"
+    "year_built": "year_built"
+    "no_of_stories": "no_of_stories"
+    "no_of_units": "no_of_units"
+    "last_sale_date": "last_sale_date"
+    "last_sale_price": "last_sale_price"
+    "last_arms_length_sale_date": "last_arms_length_sale_date"
+    "last_arms_length_sale_price": "last_arms_length_sale_price"
+    "prior_arms_length_sale_date": "prior_arms_length_sale_date"
+    "prior_arms_length_sale_price": "prior_arms_length_sale_price"
+    "legal_city": "legal_city"
+    "legal_block": "legal_block"
+    "legal_lot_number": "legal_lot_number"
+    "legal_section": "legal_section"
+    "legal_district": "legal_district"
+    "legal_unit": "legal_unit"
+    "legal_subdivision_name": "legal_subdivision_name"
+    "legal_phase_number": "legal_phase_number"
+    "legal_tract_number": "legal_tract_number"
+    "legal_section_township_range_meridian": "legal_section_township_range_meridian"
+    "legal_assessors_map_ref": "legal_assessors_map_ref"
+    "legal_brief_desc": "legal_brief_desc"
+    "current_owner": "current_owner"
+    "mailing_care_of": "mailing_care_of"
+    "mailing_street_address": "mailing_street_address"
+    "mailing_city_state": "mailing_city_state"
+    "mailing_zip": "mailing_zip"
+    "owner_occupied": "owner_occupied"
+    "loan1_contract_date": "loan1_contract_date"
+    "loan1_recording_date": "loan1_recording_date"
+    "loan1_amount": "loan1_amount"
+    "loan1_due_date": "loan1_due_date"
+    "loan1_type": "loan1_type"
+    "loan2_contract_date": "loan2_contract_date"
+    "loan2_recording_date": "loan2_recording_date"
+    "loan2_amount": "loan2_amount"
+    "loan2_due_date": "loan2_due_date"
+    "loan2_type": "loan2_type"
+    "municipality":
+    "tags":
+    "bids":
+    "notes":
+    "additional_csv_data": "additional_csv_data"
   initial_data:
     - "Lienalytics Custom List"
     - <%= "Downloaded On #{Date.today}" %>
 liencloud:
   filler_row_count: 0
   headers:
-    - RowType
-    - "LienLog ID"
-    - "Type of Instrument"
-    - "Bill Type"
-    - "Start Tax Year"
-    - "End Tax Year"
-    - "State code"
-    - "Zip Code"
-    - County
-    - "City name"
-    - "Address 1"
-    - "Address 2"
-    - "Parcel ID (APN)"
-    - Block
-    - Lot
-    - Qualifier
-    - Company
-    - "Lien holder"
-    - "Lien holder Address"
-    - Portfolios
-    - "Certificate #"
-    - "Assigned ID"
-    - "SAK #"
-    - Certified?
-    - "Auction Date"
-    - "Auctioning County"
-    - "Auctioning Municipality"
-    - "Face Value"
-    - "Pay Subsequent Taxes?"
-    - "Premium Paid at Auction"
-    - "Bid Interest Rate"
-    - "Percent Ownership"
-    - Bidder
-    - "Date Recorded in County"
-    - "Record Clerk"
-    - "Record Clerk Primary Phone #"
-    - "Record Clerk Address"
-    - "Tax Collector/Assessor"
-    - "Tax Collector/Assessor Primary Phone #"
-    - "Tax Collector/Assessor Address"
-    - "Acquisition Date"
-    - "Acquisition Method"
-    - Assignor
-    - "Assignor Primary Email"
-    - "Assignor Primary Phone #"
-    - "Assignor Address"
-    - "Est. Market/Retail Value of Land"
-    - "Est. Market/Retail Value of Improvements"
-    - "Total Est. Market/Retail Value"
-    - "Tax Net Assessed Value of Land"
-    - "Tax Net Assessed Value of Improvements"
-    - "Total Tax Net Assessed Property Value"
-    - "Tax Abatements (If Any)"
-    - "Taxable Value After Abatements"
-    - "Current Tax Rate in County/Municipality"
-    - "Est. Annual Tax"
-    - "Equalization Ratio"
-    - "Property Class (Standardized)"
-    - "Property Owner"
-    - "Property Owner Address"
-    - "Last Sale Price"
-    - "Last Sale Date"
-    - "Est. Sq. Ft. of Land"
-    - "Est. Sq. Ft. of Improvements"
-    - "Status text"
-    - "Redemption Recorded at"
-    - "Write Off"
-    - "Investment Status"
-    - "Redemption Status"
-    - "Bankruptcy Status"
-    - "Foreclosure Status"
-    - "Redemption Period End Date"
-    - "Disposition Date"
-    - "Final Proceeds"
-    - "Unpaid Proceeds (Balance Due)"
-    - "Bankruptcy Attorney"
-    - "Bankruptcy attorney Address"
-    - "Date Sent to Attorney"
-    - "Attorney file #"
-    - "Bankruptcy Case Number"
-    - "Foreclosure Attorney Contact"
-    - "Foreclosure Attorney Address"
-    - "Attorney's File #"
-    - Assignee
-    - "Assignee Primary Email"
-    - "Assignee Primary Phone #"
-    - "Assignee Address"
-    - Rating
-    - "Rating Date"
-    - "Is There a Mortgage on This Property?"
-    - "Mortgage Source"
-    - "Mortgage Amount"
-    - "Mortgage Additional Information"
-    - "Any Known Environmental Issues?"
-    - "Environmental Issues Source"
-    - "Environmental Issues Description"
-    - "Is This Property Sloped or on a Hill?"
-    - "Property Sloped Source"
-    - "Property Sloped Description"
-    - "Homestead Exemption?"
-    - "Homestead Exemption Source"
-    - "Homestead Exemption Description"
-    - "Is This Property in a Designated Flood Zone?"
-    - "Flood Zone Source"
-    - "FEMA Flood Zone Designation"
-    - "Property Access by Road?"
-    - "Property Access by Road Source"
-    - "Performance As Of"
-    - "Calculated Redemption Value (All Items)"
-    - "Calculated Redemption Value (Paid Items)"
-    - "Accrued Interest (All Items)"
-    - "Accrued Interest (Paid Items)"
-    - "Total Investment (All Items)"
-    - "Total Investment (Paid Items)"
-    - "Effective Interest Rate (All Items)"
-    - "Effective Interest Rate (Paid Items)"
-    - "Related Liens"
+    "RowType":
+    "LienLog ID":
+    "Type of Instrument":
+    "Bill Type":
+    "Start Tax Year": "tax_year"
+    "End Tax Year":
+    "State code": "state_name"
+    "Zip Code": "location_zip"
+    "County": "county_name"
+    "City name": "location_city"
+    "Address 1": "location_street_1"
+    "Address 2": "location_street_2"
+    "Parcel ID (APN)": "apn"
+    "Block": "block"
+    "Lot": "lot"
+    "Qualifier": "qualifier"
+    "Company":
+    "Lien holder":
+    "Lien holder Address":
+    "Portfolios":
+    "Certificate #": "certificate_no"
+    "Assigned ID":
+    "SAK #":
+    "Certified?":
+    "Auction Date": "original_sale_auction_date"
+    "Auctioning County":
+    "Auctioning Municipality":
+    "Face Value": "face_value"
+    "Pay Subsequent Taxes?":
+    "Premium Paid at Auction":
+    "Bid Interest Rate": "overbid_interest_rate"
+    "Percent Ownership":
+    "Bidder":
+    "Date Recorded in County":
+    "Record Clerk":
+    "Record Clerk Primary Phone #":
+    "Record Clerk Address":
+    "Tax Collector/Assessor":
+    "Tax Collector/Assessor Primary Phone #":
+    "Tax Collector/Assessor Address":
+    "Acquisition Date": "date_purchased_from_issuer"
+    "Acquisition Method":
+    "Assignor":
+    "Assignor Primary Email":
+    "Assignor Primary Phone #":
+    "Assignor Address":
+    "Est. Market/Retail Value of Land": "market_land_value"
+    "Est. Market/Retail Value of Improvements": "market_improvement_value"
+    "Total Est. Market/Retail Value": "total_market_value"
+    "Tax Net Assessed Value of Land": "assessed_land_value"
+    "Tax Net Assessed Value of Improvements": "assessed_improvement_value"
+    "Total Tax Net Assessed Property Value": "total_assessed_value"
+    "Tax Abatements (If Any)":
+    "Taxable Value After Abatements":
+    "Current Tax Rate in County/Municipality":
+    "Est. Annual Tax": "total_yearly_tax"
+    "Equalization Ratio":
+    "Property Class (Standardized)": "standardized_land_use_desc"
+    "Property Owner": "current_owner"
+    "Property Owner Address": "mailing_street_address"
+    "Last Sale Price": "last_sale_price"
+    "Last Sale Date": "last_sale_date"
+    "Est. Sq. Ft. of Land":
+    "Est. Sq. Ft. of Improvements":
+    "Status text": "legal_status"
+    "Redemption Recorded at":
+    "Write Off":
+    "Investment Status":
+    "Redemption Status":
+    "Bankruptcy Status":
+    "Foreclosure Status":
+    "Redemption Period End Date":
+    "Disposition Date":
+    "Final Proceeds":
+    "Unpaid Proceeds (Balance Due)":
+    "Bankruptcy Attorney":
+    "Bankruptcy attorney Address":
+    "Date Sent to Attorney":
+    "Attorney file #":
+    "Bankruptcy Case Number":
+    "Foreclosure Attorney Contact":
+    "Foreclosure Attorney Address":
+    "Attorney's File #":
+    "Assignee":
+    "Assignee Primary Email":
+    "Assignee Primary Phone #":
+    "Assignee Address":
+    "Rating":
+    "Rating Date":
+    "Is There a Mortgage on This Property?":
+    "Mortgage Source":
+    "Mortgage Amount":
+    "Mortgage Additional Information":
+    "Any Known Environmental Issues?":
+    "Environmental Issues Source":
+    "Environmental Issues Description":
+    "Is This Property Sloped or on a Hill?":
+    "Property Sloped Source":
+    "Property Sloped Description":
+    "Homestead Exemption?":
+    "Homestead Exemption Source":
+    "Homestead Exemption Description":
+    "Is This Property in a Designated Flood Zone?":
+    "Flood Zone Source":
+    "FEMA Flood Zone Designation":
+    "Property Access by Road?":
+    "Property Access by Road Source":
+    "Performance As Of":
+    "Calculated Redemption Value (All Items)":
+    "Calculated Redemption Value (Paid Items)":
+    "Accrued Interest (All Items)":
+    "Accrued Interest (Paid Items)":
+    "Total Investment (All Items)":
+    "Total Investment (Paid Items)":
+    "Effective Interest Rate (All Items)": "interest_rate"
+    "Effective Interest Rate (Paid Items)":
+    "Related Liens":
   initial_data: []
 lumentum:
   filler_row_count: 0
   headers:
-    - CountyName
-    - BatchNumber
-    - AdvNumber
-    - CertificateNumber
-    - NALFormat
-    - ALTKEYFormat
-    - PropertyAppraiserFormat
-    - TaxCollectorFormat
-    - ExtraFormat
-    - AuctionFormat
-    - NewParcel
-    - ReParceled
-    - CertYear
-    - TaxYear
-    - FaceAmt
-    - MktValue
-    - LandValue
-    - StructureValue
-    - ZoningCode
-    - DigipanZoning
-    - ZoningUseCode
-    - HX
-    - PropertySize
-    - SfStructure
-    - YearBuilt
-    - ImprovedQuality
-    - ConstructionClass
-    - NumberOfBuildings
-    - NumberOfResUnits
-    - MultiSale
-    - SalesHistoryAmount
-    - SalesHistoryYear
-    - SuperiorLien
-    - LisPendens
-    - Environmental
-    - CDDName
-    - BondStatus
-    - TotalBondAmount
-    - LastDateUpdated
-    - LenderName
-    - LenderAmount
-    - LenderType
-    - LoanType
-    - LoanRecordingDate
-    - LoanDueDate
-    - Owner
-    - OwnerType
-    - OwnerChange
-    - PropertyAddress
-    - PropertyCity
-    - PropertyState
-    - PropertyZip
-    - MailingAddress
-    - MailingCity
-    - MailState
-    - MailingZip
-    - LegalAddress
-    - BackTaxLastUpdated
-    - CertHolderType
-    - TaxDeedHistory
-    - BackTaxOpenCount
-    - BackTaxClosedCount
-    - RollupFaceAmount
-    - Rollupinterest
-    - RollupTotal
-    - SAL_DATE1
-    - DEL_YEAR1
-    - FACE_AMT1
-    - CER_NUM1
-    - INT_RATE1
-    - CERT_HOLDER_TYPE1
-    - CER_STAT1
-    - RED_DATE1
-    - MONTHS_OPEN1
-    - BIDDER_NUMBER1
-    - BIDDER_NAME1
-    - TAX_DEED1
-    - SAL_DATE2
-    - DEL_YEAR2
-    - FACE_AMT2
-    - CER_NUM2
-    - INT_RATE2
-    - CERT_HOLDER_TYPE2
-    - CER_STAT2
-    - RED_DATE2
-    - MONTHS_OPEN2
-    - BIDDER_NUMBER2
-    - BIDDER_NAME2
-    - TAX_DEED2
-    - SAL_DATE3
-    - DEL_YEAR3
-    - FACE_AMT3
-    - CER_NUM3
-    - INT_RATE3
-    - CERT_HOLDER_TYPE3
-    - CER_STAT3
-    - RED_DATE3
-    - MONTHS_OPEN3
-    - BIDDER_NUMBER3
-    - BIDDER_NAME3
-    - TAX_DEED3
-    - SAL_DATE4
-    - DEL_YEAR4
-    - FACE_AMT4
-    - CER_NUM4
-    - INT_RATE4
-    - CERT_HOLDER_TYPE4
-    - CER_STAT4
-    - RED_DATE4
-    - MONTHS_OPEN4
-    - BIDDER_NUMBER4
-    - BIDDER_NAME4
-    - TAX_DEED4
-    - SAL_DATE5
-    - DEL_YEAR5
-    - FACE_AMT5
-    - CER_NUM5
-    - INT_RATE5
-    - CERT_HOLDER_TYPE5
-    - CER_STAT5
-    - RED_DATE5
-    - MONTHS_OPEN5
-    - BIDDER_NUMBER5
-    - BIDDER_NAME5
-    - TAX_DEED5
-    - SAL_DATE6
-    - DEL_YEAR6
-    - FACE_AMT6
-    - CER_NUM6
-    - INT_RATE6
-    - CERT_HOLDER_TYPE6
-    - CER_STAT6
-    - RED_DATE6
-    - MONTHS_OPEN6
-    - BIDDER_NUMBER6
-    - BIDDER_NAME6
-    - TAX_DEED6
-    - SAL_DATE7
-    - DEL_YEAR7
-    - FACE_AMT7
-    - CER_NUM7
-    - INT_RATE7
-    - CERT_HOLDER_TYPE7
-    - CER_STAT7
-    - RED_DATE7
-    - MONTHS_OPEN7
-    - BIDDER_NUMBER7
-    - BIDDER_NAME7
-    - TAX_DEED7
-    - SAL_DATE8
-    - DEL_YEAR8
-    - FACE_AMT8
-    - CER_NUM8
-    - INT_RATE8
-    - CERT_HOLDER_TYPE8
-    - CER_STAT8
-    - RED_DATE8
-    - MONTHS_OPEN8
-    - BIDDER_NUMBER8
-    - BIDDER_NAME8
-    - TAX_DEED8
-    - SAL_DATE9
-    - DEL_YEAR9
-    - FACE_AMT9
-    - CER_NUM9
-    - INT_RATE9
-    - CERT_HOLDER_TYPE9
-    - CER_STAT9
-    - RED_DATE9
-    - MONTHS_OPEN9
-    - BIDDER_NUMBER9
-    - BIDDER_NAME9
-    - TAX_DEED9
-    - SAL_DATE10
-    - DEL_YEAR10
-    - FACE_AMT10
-    - CER_NUM10
-    - INT_RATE10
-    - CERT_HOLDER_TYPE10
-    - CER_STAT10
-    - RED_DATE10
-    - MONTHS_OPEN10
-    - BIDDER_NUMBER10
-    - BIDDER_NAME10
-    - TAX_DEED10
-    - SAL_DATE11
-    - DEL_YEAR11
-    - FACE_AMT11
-    - CER_NUM11
-    - INT_RATE11
-    - CERT_HOLDER_TYPE11
-    - CER_STAT11
-    - RED_DATE11
-    - MONTHS_OPEN11
-    - BIDDER_NUMBER11
-    - BIDDER_NAME11
-    - TAX_DEED11
-    - SAL_DATE12
-    - DEL_YEAR12
-    - FACE_AMT12
-    - CER_NUM12
-    - INT_RATE12
-    - CERT_HOLDER_TYPE12
-    - CER_STAT12
-    - RED_DATE12
-    - MONTHS_OPEN12
-    - BIDDER_NUMBER12
-    - BIDDER_NAME12
-    - TAX_DEED12
-    - SAL_DATE13
-    - DEL_YEAR13
-    - FACE_AMT13
-    - CER_NUM13
-    - INT_RATE13
-    - CERT_HOLDER_TYPE13
-    - CER_STAT13
-    - RED_DATE13
-    - MONTHS_OPEN13
-    - BIDDER_NUMBER13
-    - BIDDER_NAME13
-    - TAX_DEED13
-    - SAL_DATE14
-    - DEL_YEAR14
-    - FACE_AMT14
-    - CER_NUM14
-    - INT_RATE14
-    - CERT_HOLDER_TYPE14
-    - CER_STAT14
-    - RED_DATE14
-    - MONTHS_OPEN14
-    - BIDDER_NUMBER14
-    - BIDDER_NAME14
-    - TAX_DEED14
-    - SAL_DATE15
-    - DEL_YEAR15
-    - FACE_AMT15
-    - CER_NUM15
-    - INT_RATE15
-    - CERT_HOLDER_TYPE15
-    - CER_STAT15
-    - RED_DATE15
-    - MONTHS_OPEN15
-    - BIDDER_NUMBER15
-    - BIDDER_NAME15
-    - TAX_DEED15
-    - SAL_DATE16
-    - DEL_YEAR16
-    - FACE_AMT16
-    - CER_NUM16
-    - INT_RATE16
-    - CERT_HOLDER_TYPE16
-    - CER_STAT16
-    - RED_DATE16
-    - MONTHS_OPEN16
-    - BIDDER_NUMBER16
-    - BIDDER_NAME16
-    - TAX_DEED16
-    - SAL_DATE17
-    - DEL_YEAR17
-    - FACE_AMT17
-    - CER_NUM17
-    - INT_RATE17
-    - CERT_HOLDER_TYPE17
-    - CER_STAT17
-    - RED_DATE17
-    - MONTHS_OPEN17
-    - BIDDER_NUMBER17
-    - BIDDER_NAME17
-    - TAX_DEED17
-    - SAL_DATE18
-    - DEL_YEAR18
-    - FACE_AMT18
-    - CER_NUM18
-    - INT_RATE18
-    - CERT_HOLDER_TYPE18
-    - CER_STAT18
-    - RED_DATE18
-    - MONTHS_OPEN18
-    - BIDDER_NUMBER18
-    - BIDDER_NAME18
-    - TAX_DEED18
-    - SAL_DATE19
-    - DEL_YEAR19
-    - FACE_AMT19
-    - CER_NUM19
-    - INT_RATE19
-    - CERT_HOLDER_TYPE19
-    - CER_STAT19
-    - RED_DATE19
-    - MONTHS_OPEN19
-    - BIDDER_NUMBER19
-    - BIDDER_NAME19
-    - TAX_DEED19
-    - SAL_DATE20
-    - DEL_YEAR20
-    - FACE_AMT20
-    - CER_NUM20
-    - INT_RATE20
-    - CERT_HOLDER_TYPE20
-    - CER_STAT20
-    - RED_DATE20
-    - MONTHS_OPEN20
-    - BIDDER_NUMBER20
-    - BIDDER_NAME20
-    - TAX_DEED20
+    "CountyName": "county_name"
+    "BatchNumber":
+    "AdvNumber":  # TODO: Primary Market ID - ask christine
+    "CertificateNumber": "certificate_no"
+    "NALFormat":  # alternate APN formats (no spaces/dashes/etc)
+    "ALTKEYFormat":  # alternate APN formats
+    "PropertyAppraiserFormat":  # alternate APN formats
+    "TaxCollectorFormat": "apn" # alternate APN formats
+    "ExtraFormat":  # alternate APN formats
+    "AuctionFormat": "parcel_id" # alternate APN formats
+    "NewParcel":
+    "ReParceled":
+    "CertYear":  # cert_year added to Lien (date_purchased_from_issuer year)
+    "TaxYear": "tax_year"
+    "FaceAmt": "face_value"
+    "MktValue": "total_market_value"
+    "LandValue": "market_land_value"
+    "StructureValue":  # market_improvement_val or assessed_improvement_val
+    "ZoningCode": "standardized_land_use"
+    "DigipanZoning": "county_land_use_desc"
+    "ZoningUseCode": "standardized_land_use_desc"
+    "HX":  #?
+    "PropertySize":
+    "SfStructure":
+    "YearBuilt": "year_built"
+    "ImprovedQuality":
+    "ConstructionClass":
+    "NumberOfBuildings":
+    "NumberOfResUnits": "no_of_units"
+    "MultiSale":
+    "SalesHistoryAmount":
+    "SalesHistoryYear":
+    "SuperiorLien":
+    "LisPendens":
+    "Environmental":
+    "CDDName":
+    "BondStatus":
+    "TotalBondAmount":
+    "LastDateUpdated":
+    "LenderName":
+    "LenderAmount":
+    "LenderType":
+    "LoanType": "loan1_type"
+    "LoanRecordingDate": "loan1_recording_date"
+    "LoanDueDate": "loan1_due_date"
+    "Owner": "current_owner"
+    "OwnerType":
+    "OwnerChange":
+    "PropertyAddress": "location_street_address_1"
+    "PropertyCity": "location_city"
+    "PropertyState": "state_name"
+    "PropertyZip": "location_zip"
+    "MailingAddress": "mailing_street_address"
+    "MailingCity": "mailing_city_state"
+    "MailState":
+    "MailingZip": "mailing_zip"
+    "LegalAddress":
+    "BackTaxLastUpdated":
+    "CertHolderType":
+    "TaxDeedHistory":
+    "BackTaxOpenCount":
+    "BackTaxClosedCount":
+    "RollupFaceAmount":
+    "Rollupinterest":
+    "RollupTotal":
+    "SAL_DATE1":
+    "DEL_YEAR1":
+    "FACE_AMT1":
+    "CER_NUM1":
+    "INT_RATE1":
+    "CERT_HOLDER_TYPE1":
+    "CER_STAT1":  # the stage of the lien (e.g. held/redeemed)
+    "RED_DATE1":
+    "MONTHS_OPEN1":
+    "BIDDER_NUMBER1":
+    "BIDDER_NAME1":
+    "TAX_DEED1":
+    "SAL_DATEE2":
+    "DEL_YEAR2":
+    "FACE_AMT2":
+    "CER_NUM2":
+    "INT_RATE2":
+    "CERT_HOLDER_TYPE2":
+    "CER_STAT2":  # the stage of the lien (e.g. held/redeemed)
+    "RED_DATE2":
+    "MONTHS_OPEN2":
+    "BIDDER_NUMBER2":
+    "BIDDER_NAME2":
+    "TAX_DEED2":
+    "SAL_DATE3":
+    "DEL_YEAR3":
+    "FACE_AMT3":
+    "CER_NUM3":
+    "INT_RATE3":
+    "CERT_HOLDER_TYPE3":
+    "CER_STAT3":  # the stage of the lien (e.g. held/redeemed)
+    "RED_DATE3":
+    "MONTHS_OPEN3":
+    "BIDDER_NUMBER3":
+    "BIDDER_NAME3":
+    "TAX_DEED3":
+    "SAL_DATE4":
+    "DEL_YEAR4":
+    "FACE_AMT4":
+    "CER_NUM4":
+    "INT_RATE4":
+    "CERT_HOLDER_TYPE4":
+    "CER_STAT4":  # the stage of the lien (e.g. held/redeemed)
+    "RED_DATE4":
+    "MONTHS_OPEN4":
+    "BIDDER_NUMBER4":
+    "BIDDER_NAME4":
+    "TAX_DEED4":
+    "SAL_DATE5":
+    "DEL_YEAR5":
+    "FACE_AMT5":
+    "CER_NUM5":
+    "INT_RATE5":
+    "CERT_HOLDER_TYPE5":
+    "CER_STAT5":  # the stage of the lien (e.g. held/redeemed)
+    "RED_DATE5":
+    "MONTHS_OPEN5":
+    "BIDDER_NUMBER5":
+    "BIDDER_NAME5":
+    "TAX_DEED5":
+    "SAL_DATE6":
+    "DEL_YEAR6":
+    "FACE_AMT6":
+    "CER_NUM6":
+    "INT_RATE6":
+    "CERT_HOLDER_TYPE6":
+    "CER_STAT6":  # the stage of the lien (e.g. held/redeemed)
+    "RED_DATE6":
+    "MONTHS_OPEN6":
+    "BIDDER_NUMBER6":
+    "BIDDER_NAME6":
+    "TAX_DEED6":
+    "SAL_DATE7":
+    "DEL_YEAR7":
+    "FACE_AMT7":
+    "CER_NUM7":
+    "INT_RATE7":
+    "CERT_HOLDER_TYPE7":
+    "CER_STAT7":  # the stage of the lien (e.g. held/redeemed)
+    "RED_DATE7":
+    "MONTHS_OPEN7":
+    "BIDDER_NUMBER7":
+    "BIDDER_NAME7":
+    "TAX_DEED7":
+    "SAL_DATE8":
+    "DEL_YEAR8":
+    "FACE_AMT8":
+    "CER_NUM8":
+    "INT_RATE8":
+    "CERT_HOLDER_TYPE8":
+    "CER_STAT8":  # the stage of the lien (e.g. held/redeemed)
+    "RED_DATE8":
+    "MONTHS_OPEN8":
+    "BIDDER_NUMBER8":
+    "BIDDER_NAME8":
+    "TAX_DEED8":
+    "SAL_DATE9":
+    "DEL_YEAR9":
+    "FACE_AMT9":
+    "CER_NUM9":
+    "INT_RATE9":
+    "CERT_HOLDER_TYPE9":
+    "CER_STAT9":  # the stage of the lien (e.g. held/redeemed)
+    "RED_DATE9":
+    "MONTHS_OPEN9":
+    "BIDDER_NUMBER9":
+    "BIDDER_NAME9":
+    "TAX_DEED9":
+    "SAL_DATE10":
+    "DEL_YEAR10":
+    "FACE_AMT10":
+    "CER_NUM10":
+    "INT_RATE10":
+    "CERT_HOLDER_TYPE10":
+    "CER_STAT10":  # the stage of the lien (e.g. held/redeemed)
+    "RED_DATE10":
+    "MONTHS_OPEN10":
+    "BIDDER_NUMBER10":
+    "BIDDER_NAME10":
+    "TAX_DEED10":
+    "SAL_DATE11":
+    "DEL_YEAR11":
+    "FACE_AMT11":
+    "CER_NUM11":
+    "INT_RATE11":
+    "CERT_HOLDER_TYPE11":
+    "CER_STAT11":  # the stage of the lien (e.g. held/redeemed)
+    "RED_DATE11":
+    "MONTHS_OPEN11":
+    "BIDDER_NUMBER11":
+    "BIDDER_NAME11":
+    "TAX_DEED11":
+    "SAL_DATE12":
+    "DEL_YEAR12":
+    "FACE_AMT12":
+    "CER_NUM12":
+    "INT_RATE12":
+    "CERT_HOLDER_TYPE12":
+    "CER_STAT12":  # the stage of the lien (e.g. held/redeemed)
+    "RED_DATE12":
+    "MONTHS_OPEN12":
+    "BIDDER_NUMBER12":
+    "BIDDER_NAME12":
+    "TAX_DEED12":
+    "SAL_DATE13":
+    "DEL_YEAR13":
+    "FACE_AMT13":
+    "CER_NUM13":
+    "INT_RATE13":
+    "CERT_HOLDER_TYPE13":
+    "CER_STAT13":  # the stage of the lien (e.g. held/redeemed)
+    "RED_DATE13":
+    "MONTHS_OPEN13":
+    "BIDDER_NUMBER13":
+    "BIDDER_NAME13":
+    "TAX_DEED13":
+    "SAL_DATE14":
+    "DEL_YEAR14":
+    "FACE_AMT14":
+    "CER_NUM14":
+    "INT_RATE14":
+    "CERT_HOLDER_TYPE14":
+    "CER_STAT14":  # the stage of the lien (e.g. held/redeemed)
+    "RED_DATE14":
+    "MONTHS_OPEN14":
+    "BIDDER_NUMBER14":
+    "BIDDER_NAME14":
+    "TAX_DEED14":
+    "SAL_DATE15":
+    "DEL_YEAR15":
+    "FACE_AMT15":
+    "CER_NUM15":
+    "INT_RATE15":
+    "CERT_HOLDER_TYPE15":
+    "CER_STAT15":  # the stage of the lien (e.g. held/redeemed)
+    "RED_DATE15":
+    "MONTHS_OPEN15":
+    "BIDDER_NUMBER15":
+    "BIDDER_NAME15":
+    "TAX_DEED15":
+    "SAL_DATE16":
+    "DEL_YEAR16":
+    "FACE_AMT16":
+    "CER_NUM16":
+    "INT_RATE16":
+    "CERT_HOLDER_TYPE16":
+    "CER_STAT16":  # the stage of the lien (e.g. held/redeemed)
+    "RED_DATE16":
+    "MONTHS_OPEN16":
+    "BIDDER_NUMBER16":
+    "BIDDER_NAME16":
+    "TAX_DEED16":
+    "SAL_DATE17":
+    "DEL_YEAR17":
+    "FACE_AMT17":
+    "CER_NUM17":
+    "INT_RATE17":
+    "CERT_HOLDER_TYPE17":
+    "CER_STAT17":  # the stage of the lien (e.g. held/redeemed)
+    "RED_DATE17":
+    "MONTHS_OPEN17":
+    "BIDDER_NUMBER17":
+    "BIDDER_NAME17":
+    "TAX_DEED17":
+    "SAL_DATE18":
+    "DEL_YEAR18":
+    "FACE_AMT18":
+    "CER_NUM18":
+    "INT_RATE18":
+    "CERT_HOLDER_TYPE18":
+    "CER_STAT18":  # the stage of the lien (e.g. held/redeemed)
+    "RED_DATE18":
+    "MONTHS_OPEN18":
+    "BIDDER_NUMBER18":
+    "BIDDER_NAME18":
+    "TAX_DEED18":
+    "SAL_DATE19":
+    "DEL_YEAR19":
+    "FACE_AMT19":
+    "CER_NUM19":
+    "INT_RATE19":
+    "CERT_HOLDER_TYPE19":
+    "CER_STAT19":  # the stage of the lien (e.g. held/redeemed)
+    "RED_DATE19":
+    "MONTHS_OPEN19":
+    "BIDDER_NUMBER19":
+    "BIDDER_NAME19":
+    "TAX_DEED19":
+    "SAL_DATE20":
+    "DEL_YEAR20":
+    "FACE_AMT20":
+    "CER_NUM20":
+    "INT_RATE20":
+    "CERT_HOLDER_TYPE20":
+    "CER_STAT20":  # the stage of the lien (e.g. held/redeemed)
+    "RED_DATE20":
+    "MONTHS_OPEN20":
+    "BIDDER_NUMBER20":
+    "BIDDER_NAME20":
+    "TAX_DEED20":
   initial_data: []
 melissa_data:
   filler_row_count: 0
   headers:
-    - state_name
-    - county_name
-    - Municipality
-    - full_fips_code
-    - apn
-    - address
-    - City
-    - State
-    - ZIP
-    - MD_Parcel_FormattedAPN
-    - MD_Parcel_Zoning
-    - MD_Parcel_Range
-    - MD_Parcel_Township
-    - MD_Parcel_Section
-    - MD_Parcel_Quarter_Section
-    - MD_Parcel_LandUseCode
-    - MD_Parcel_CountyLandUse1
-    - MD_Parcel_CountyLandUse2
-    - MD_PropertyAddress_Address
-    - MD_PropertyAddress_Adress
-    - MD_PropertyAddress_City
-    - MD_PropertyAddress_State
-    - MD_PropertyAddress_Zip
-    - MD_PropertyAddress_Latitude
-    - MD_PropertyAddress_Longitude
-    - MD_ParsedPropertyAddress_Range
-    - MD_ParsedPropertyAddress_Predirectional
-    - MD_ParsedPropertyAddress_StreetName
-    - MD_ParsedPropertyAddress_Suffix
-    - MD_ParsedPropertyAddress_PostDirectional
-    - MDParsedPropertyAddress_SuiteName
-    - MDParsedPropertyAddress_SuiteRange
-    - MD_Owner_CorporateOwner
-    - MD_Owner_Name
-    - MD_Owner_Name2
-    - MD_OwnderAddress_Address
-    - MD_OwnerAddress_City
-    - MD_OwnerAddress_State
-    - MD_OwnderAddress_Zip
-    - MD_Values_AssessedTotalValue
-    - MD_Values_AssessedLandValue
-    - MD_Values_AssessedImprovementValue
-    - MD_Values_MarketTotalValue
-    - MD_Values_MarketLandValue
-    - MD_Values_MarketImprovementValue
-    - MD_Values_TaxAmount
-    - MD_Values_TaxYear
-    - MD_CurrentSale_RecordingDate
-    - MD_CurrentSale_SaleDate
-    - MD_CurrentSale_SalePrice
-    - MD_CurrentDeed_MortgageAmount
-    - MD_CurrentDeed_MortgageDate
-    - MD_CurrentDeed_MortgageLoanTypeCode
-    - MD_CurrentDeed_MortgageDueDate
-    - MD_CurrentDeed_SecontMortgageAmount
-    - MD_PriorSale_SaleDate
-    - MD_PriorSale_SalePrice
-    - MD_Lot_FrontFootage
-    - MD_Lot_DepthFootage
-    - MD_Building_YearBuilt
-    - MD_Building_BuildingCode
-    - MD_Building_Stories
-    - MD_Building_Units
+    state_name: "state_name"
+    "county_name": "county_name"
+    "Municipality": "municipality"
+    "full_fips_code": "full_fips_code"
+    "apn": "apn"
+    "address": "location_street_address"
+    "City": "location_city"
+    "State": "state_name"
+    "ZIP": "location_zip"
+    "MD_Parcel_FormattedAPN": "parcel_id"
+    "MD_Parcel_Zoning": "zoning"
+    "MD_Parcel_Range": "legal_section_township_range_meridian"
+    "MD_Parcel_Township": "legal_section_township_range_meridian"
+    "MD_Parcel_Section": "legal_section_township_range_meridian"
+    "MD_Parcel_Quarter_Section": "legal_section_township_range_meridian"
+    "MD_Parcel_LandUseCode": "county_land_use"
+    "MD_Parcel_CountyLandUse1": "county_land_use_desc"
+    "MD_Parcel_CountyLandUse2": "county_land_use_desc"
+    "MD_PropertyAddress_Address": "location_street_suffix"
+    "MD_PropertyAddress_Adress": "location_street_1"
+    "MD_PropertyAddress_City": "location_city"
+    "MD_PropertyAddress_State": "state_name"
+    "MD_PropertyAddress_Zip": "location_zip"
+    "MD_PropertyAddress_Latitude": "latitude"
+    "MD_PropertyAddress_Longitude": "longitude"
+    "MD_ParsedPropertyAddress_Range": "location_house_number"
+    "MD_ParsedPropertyAddress_Predirectional": "location_street_dir_left"
+    "MD_ParsedPropertyAddress_StreetName": "location_street_name"
+    "MD_ParsedPropertyAddress_Suffix": "location_street_suffix"
+    "MD_ParsedPropertyAddress_PostDirectional": "location_street_dir_right"
+    "MDParsedPropertyAddress_SuiteName": "location_unit_number"
+    "MDParsedPropertyAddress_SuiteRange": "location_unit_number"
+    "MD_Owner_CorporateOwner": "owner_occupied"
+    "MD_Owner_Name": "current_owner"
+    "MD_Owner_Name2": "mailing_care_of"
+    "MD_OwnderAddress_Address": "mailing_street_address"
+    "MD_OwnerAddress_City": "mailing_city_state"
+    "MD_OwnerAddress_State": "mailing_city_state"
+    "MD_OwnderAddress_Zip": "mailing_zip"
+    "MD_Values_AssessedTotalValue": "total_assessed_value"
+    "MD_Values_AssessedLandValue": "assessed_land_value"
+    "MD_Values_AssessedImprovementValue": "assessed_improvement_value"
+    "MD_Values_MarketTotalValue": "total_market_value"
+    "MD_Values_MarketLandValue": "market_land_value"
+    "MD_Values_MarketImprovementValue": "market_improvement_value"
+    "MD_Values_TaxAmount": "total_yearly_tax"
+    "MD_Values_TaxYear": "prop_record_year"
+    "MD_CurrentSale_RecordingDate": "loan1_recording_date"
+    "MD_CurrentSale_SaleDate": "last_sale_date"
+    "MD_CurrentSale_SalePrice": "last_sale_price"
+    "MD_CurrentDeed_MortgageAmount": "loan1_amount"
+    "MD_CurrentDeed_MortgageDate": "loan1_contract_date"
+    "MD_CurrentDeed_MortgageLoanTypeCode": "loan1_type"
+    "MD_CurrentDeed_MortgageDueDate": "loan_1_due_date"
+    "MD_CurrentDeed_SecontMortgageAmount": "loan2_amount"
+    "MD_PriorSale_SaleDate": "prior_arms_length_sale_date"
+    "MD_PriorSale_SalePrice": "prior_arms_length_sale_price"
+    "MD_Lot_FrontFootage": "lot_frontage"
+    "MD_Lot_DepthFootage": "lot_depth"
+    "MD_Building_YearBuilt": "year_built"
+    "MD_Building_BuildingCode": "building_class"
+    "MD_Building_Stories": "no_of_stories"
+    "MD_Building_Units": "no_of_units"
   initial_data: []
-mtag:
+mtag_import:
   filler_row_count: 0
   headers:
-    - Acq_Date
-    - Apn_County
-    - Land_Desc
-    - Prop_St
-    - Prop_City
-    - Prop_Num
-    - Location_Street_Dir_Left
-    - Prop_Street
-    - Location_Street_Suffix
-    - Location_Street_Dir_Right
-    - Block
-    - Lot
-    - Qual
-    - Prop_Zip
-    - Tax_Type
-    - Tax_Year
-    - Use_Code
-    - Homestead
-    - Muni_Cert
-    - sale_no
-    - Addl_lOts
-    - Ann_Taxes
-    - Class
-    - Own_adr
-    - Own_City
-    - Own_Per
-    - Own_St
-    - Own_Zip
-    - Owner
-    - Purchaser
-    - Bidder_Num
-    - Tax_Amt
-    - Overbid
-    - Principal
-    - Bear_int
-    - Bear_Pen
-    - Fee_Refund
-    - Int_Rate
-    - Pen_Basic
-    - Imp_Val
-    - Land_Val
-    - Real_Mkt_Val
-    - County
-    - Longitude
-    - Latitude
-    - Township
-    - EQ_Ratio
-    - Ass_imp
-    - Ass_Land
-    - Ass_Tot_Val
+    "Acq_Date": 'date_purchased_from_issuer'
+    "Apn_County": 'full_fips_code'
+    "Land_Desc": 'standardized_land_use'
+    "Prop_St": 'location_street_address_1'
+    "Prop_City": 'location_city'
+    "Prop_Num": 'location_house_number'
+    "Location_Street_Dir_Left": 'location_street_dir_left'
+    "Prop_Street": 'location_street_name'
+    "Location_Street_Suffix": 'location_street_suffix'
+    "Location_Street_Dir_Right": 'location_street_dir_right'
+    "Block": 'legal_block'
+    "Lot": 'legal_lot_number'
+    "Qual":
+    "Prop_Zip": 'location_zip'
+    "Tax_Type":
+    "Tax_Year": 'tax_year'
+    "Use_Code": 'standardized_land_use'
+    "Homestead":
+    "Muni_Cert": 'certificate_no'
+    "sale_no":
+    "Addl_lOts":
+    "Ann_Taxes":
+    "Class":
+    "Own_adr": 'mailing_street_address'
+    "Own_City": 'mailing_city_state'
+    "Own_Per": 'mailing_care_of'
+    "Own_St":
+    "Own_Zip": 'mailing_zip'
+    "Owner": 'current_owner'
+    "Purchaser":
+    "Bidder_Num":
+    "Tax_Amt": 'face_value'
+    "Overbid": 'premium_overbid'
+    "Principal":
+    "Bear_int":
+    "Bear_Pen":
+    "Fee_Refund":
+    "Int_Rate": 'interest_rate'
+    "Pen_Basic":
+    "Imp_Val": 'market_improvement_value'
+    "Land_Val": 'market_land_value'
+    "Real_Mkt_Val": 'total_market_value'
+    "County": 'county_name'
+    "Longitude": 'longitude'
+    "Latitude": 'latitude'
+    "Township": 'legal_section_township_range_meridian'
+    "EQ_Ratio":
+    "Ass_imp": 'assessed_improvement_value'
+    "Ass_Land": 'assessed_land_value'
+    "Ass_Tot_Val": 'total_assessed_value'
+  initial_data: []
+mtag_export:
+  filler_row_count: 0
+  headers:
+    "MTAG Ori Cert":
+    "MTAG ID":
+    "Client ID":
+    "Muni Cert":
+    "Property Address": "location_street_address_1"
+    "State": "state_name"
+    "Jurisdiction": "county_name"
+    "Zip Code": "location_zip"
+    "Property Owner": "current_owner"
+    "Pool":
+    "Sub Pool":
+    "Parcel ID": "apn"
+    "Acquisition Date": "date_purchased_from_issuer"
+    "Vintage": "tax_year"
+    "TDA Stamp Date":
+    "Rank":
+    "Tax": "face_value"
+    "Overbid": "premium_overbid"
+    "Amount Paid":  #"principal" # TODO: update this with added field on lien: :principal
+    "Assessed Value": "total_assessed_value"
+    "Market Value": "total_market_value"
+    "LTV":
+    "Principal":  #"principal" #TODO principal above
+    "Bear Int":
+    "Interest":
+    "Bear Pen":
+    "Penalty":
+    "Fee":
+    "Use Code":
+    "Status Code": "legal_status"
+    "Total Due (Excluding Fees)":  #RV without fees
+    "Interest Rate": "interest_rate"
+    "Penalty Rate": "penalty_rate"
+    "Principal Balance":
+    "Interest Balance":
+    "Ending Balance":  #RV
+    "Fee Balance":  #total fees
+    "Purchase Amount":
+    "Purchase Date": "original_sale_auction_date"
+    "Recent Pre Foreclosure":
+    "Latest Foreclosure Activity":
+    "Latest Foreclosure Activity Date":
   initial_data: []
 old_lienalytics:
   filler_row_count: 7
   headers:
-    - sort_no
-    - list_item_id
-    - state
-    - county
-    - municipality
-    - full_fips_code
-    - parcel_id
-    - list_batch_no
-    - list_item_ref
-    - amount
-    - list_item_type
-    - list_note_1
-    - list_note_2
-    - list_note_3
-    - list_note_4
-    - location_full_street_address
-    - location_city_state_zip
-    - assessment_year
-    - assessed_land_value
-    - assessed_improvement_value
-    - total_assessed_value
-    - market_value_year
-    - market_land_value
-    - market_improvement_value
-    - total_market_value
-    - tax_year
-    - tax_amount
-    - county_land_use
-    - county_land_use_desc
-    - standardized_land_use
-    - standardized_land_use_desc
-    - current_owner
-    - mailing_care_of
-    - mailing_street_address
-    - mailing_city_state
-    - mail_zip_4
-    - owner_occupied
-    - apn
-    - tax_id
-    - id_1
-    - id_2
-    - id_3
-    - id_4
-    - id_5
-    - id_6
-    - id_7
-    - id_8
-    - id_9
-    - id_10
-    - location_house_number
-    - location_street_dir_left
-    - location_street_name
-    - location_street_suffix
-    - location_street_dir_right
-    - location_unit_number
-    - location_city
-    - location_state
-    - location_zip_4
-    - longitude
-    - latitude
-    - lot_frontage
-    - lot_depth
-    - lot_size
-    - lot_size_unit
-    - zoning
-    - building_class
-    - year_built
-    - no_of_stories
-    - no_of_units
-    - latest_sale_date
-    - latest_sale_price
-    - latest_arms_length_sale_date
-    - latest_arms_length_sale_price
-    - prior_arms_length_sale_date
-    - prior_arms_length_sale_price
-    - loan1_contract_date
-    - loan1_recording_date
-    - loan1_amount
-    - loan1_due_date
-    - loan1_type
-    - loan2_contract_date
-    - loan2_recording_date
-    - loan2_amount
-    - loan2_due_date
-    - loan2_type
-    - legal_city
-    - legal_block
-    - legal_lot_number
-    - legal_section
-    - legal_district
-    - legal_unit
-    - legal_subdivision_name
-    - legal_phase_number
-    - legal_tract_number
-    - legal_section_township_range_meridian
-    - legal_assessors_map_ref
-    - legal_brief_desc
-    - inspect_url
-    - lien_certificate
-    - client_parcel_certificate_number
-    - legal_status
-    - penalty_rate
-    - penalty_amount
-    - premium_overbid
-    - total_recoverable_fees
-    - lien_tax_year
-    - original_sale_auction_date
-    - date_purchased_from_issuer
-    - issuer
-    - lien_face_value
-    - interest_rate
-    - days_outstanding
-    - months_outstanding
-    - periods_outstanding
-    - accrued_interest
-    - redemptive_value_date
-    - redemptive_value
-    - rv_assessed
-    - lien_sub
-    - optional_field_1
-    - optional_field_2
-    - optional_field_3
-    - optional_field_4
-    - optional_field_5
-    - optional_field_6
-    - optional_field_7
-    - optional_field_8
-    - optional_field_9
-    - optional_field_10
+    "sort_no": "sort_no"
+    "list_item_id": "list_item_id"
+    "state": "state_name"
+    "county": "county_name"
+    "municipality":
+    "full_fips_code": "full_fips_code"
+    "parcel_id": "parcel_id"
+    "list_batch_no":
+    "list_item_ref": "list_item_ref"
+    "amount": "face_value"
+    "list_item_type": "tax_type"
+    "list_note_1":
+    "list_note_2":
+    "list_note_3":
+    "list_note_4":
+    "location_full_street_address": "location_street_address_1"
+    "location_city_state_zip": "location_city_state_zip"
+    "assessment_year": "assessment_year"
+    "assessed_land_value": "assessed_land_value"
+    "assessed_improvement_value": "assessed_improvement_value"
+    "total_assessed_value": "total_assessed_value"
+    "market_value_year": "market_value_year"
+    "market_land_value": "market_land_value"
+    "market_improvement_value": "market_improvement_value"
+    "total_market_value": "total_market_value"
+    "tax_year": "tax_year"
+    "tax_amount": "principal"
+    "county_land_use": "county_land_use"
+    "county_land_use_desc": "county_land_use_desc"
+    "standardized_land_use": "standardized_land_use"
+    "standardized_land_use_desc": "standardized_land_use_desc"
+    "current_owner": "current_owner"
+    "mailing_care_of": "mailing_care_of"
+    "mailing_street_address": "mailing_street_address"
+    "mailing_city_state": "mailing_city_state"
+    "mail_zip_4": "mail_zip_4"
+    "owner_occupied": "owner_occupied"
+    "apn": "apn"
+    "tax_id":
+    "id_1": "block"
+    "id_2": "lot"
+    "id_3": "qualifier"
+    "id_4": "addl_lots"
+    "id_5": "account_numbers"
+    "id_6":
+    "id_7":
+    "id_8":
+    "id_9":
+    "id_10":
+    "location_house_number": "location_house_number"
+    "location_street_dir_left": "location_street_dir_left"
+    "location_street_name": "location_street_name"
+    "location_street_suffix": "location_street_suffix"
+    "location_street_dir_right": "location_street_dir_right"
+    "location_unit_number": "location_unit_number"
+    "location_city": "location_city"
+    "location_state": "state_name"
+    "location_zip_4": "location_zip"
+    "longitude": "longitude"
+    "latitude": "latitude"
+    "lot_frontage": "lot_frontage"
+    "lot_depth": "lot_depth"
+    "lot_size": "lot_size"
+    "lot_size_unit": "lot_size_unit"
+    "zoning": "zoning"
+    "building_class": "building_class"
+    "year_built": "year_built"
+    "no_of_stories": "no_of_stories"
+    "no_of_units": "no_of_units"
+    "latest_sale_date": "last_sale_date"
+    "latest_sale_price": "last_sale_price"
+    "latest_arms_length_sale_date": "last_arms_length_sale_date"
+    "latest_arms_length_sale_price": "last_arms_length_sale_price"
+    "prior_arms_length_sale_date": "prior_arms_length_sale_date"
+    "prior_arms_length_sale_price": "prior_arms_length_sale_price"
+    "loan1_contract_date": "loan1_contract_date"
+    "loan1_recording_date": "loan1_recording_date"
+    "loan1_amount": "loan1_amount"
+    "loan1_due_date": "loan1_due_date"
+    "loan1_type": "loan1_type"
+    "loan2_contract_date": "loan2_contract_date"
+    "loan2_recording_date": "loan2_recording_date"
+    "loan2_amount": "loan2_amount"
+    "loan2_due_date": "loan2_due_date"
+    "loan2_type": "loan2_type"
+    "legal_city": "legal_city"
+    "legal_block": "legal_block"
+    "legal_lot_number": "legal_lot_number"
+    "legal_section": "legal_section"
+    "legal_district": "legal_district"
+    "legal_unit": "legal_unit"
+    "legal_subdivision_name": "legal_subdivision_name"
+    "legal_phase_number": "legal_phase_number"
+    "legal_tract_number": "legal_tract_number"
+    "legal_section_township_range_meridian": "legal_section_township_range_meridian"
+    "legal_assessors_map_ref": "legal_assessors_map_ref"
+    "legal_brief_desc": "legal_brief_desc"
+    "inspect_url":
+    "lien_certificate": "certificate_no"
+    "client_parcel_certificate_number":
+    "legal_status": "legal_status"
+    "penalty_rate": "penalty_rate"
+    "penalty_amount": "penalty_amount"
+    "premium_overbid": "premium_overbid"
+    "total_recoverable_fees":
+    "lien_tax_year": "tax_year"
+    "original_sale_auction_date": "original_sale_auction_date"
+    "date_purchased_from_issuer": "date_purchased_from_issuer"
+    "issuer": "issuer"
+    "lien_face_value": "face_value"
+    "interest_rate": "interest_rate"
+    "days_outstanding":
+    "months_outstanding":
+    "periods_outstanding":
+    "accrued_interest":
+    "redemptive_value_date":
+    "redemptive_value":
+    "rv_assessed":
+    "lien_sub":
+    "optional_field_1":
+    "optional_field_2":
+    "optional_field_3":
+    "optional_field_4":
+    "optional_field_5":
+    "optional_field_6":
+    "optional_field_7":
+    "optional_field_8":
+    "optional_field_9":
+    "optional_field_10":
   initial_data: []
 other:
   headers: []
@@ -818,195 +855,195 @@ other:
 real_auction:
   filler_row_count: 0
   headers:
-    - RA_ITEMID
-    - ADVNUM
-    - PARCEL
-    - FACEVALUE
-    - BID
+    "RA_ITEMID":
+    "ADVNUM":
+    "PARCEL": "apn"
+    "FACEVALUE": "face_value"
+    "BID":
   initial_data: []
 tsr:
   filler_row_count: 8
   headers:
-    - TSRID
-    - Sort_No
-    - State
-    - County
-    - Municipality
-    - Parcel_ID
-    - Tax_ID
-    - ID_1
-    - ID_2
-    - ID_3
-    - ID_4
-    - ID_5
-    - ID_6
-    - ID_7
-    - ID_8
-    - ID_9
-    - ID_10
-    - List_Batch_No
-    - List_Item_Ref
-    - Amount
-    - List_Item_Type
-    - List_Note_1
-    - List_Note_2
-    - List_Note_3
-    - List_Note_4
-    - TSR_Notes
-    - Data_Match
-    - Prop_Record_Year
-    - APN
-    - Location_House_Number
-    - Location_Street_Dir_Left
-    - Location_Street_Name
-    - Location_Street_Suffix
-    - Location_Street_Dir_Right
-    - Location_Unit_Number
-    - Location_City
-    - Location_State
-    - Location_Zip_4
-    - Location_Full_Street_Address
-    - Location_City_State_Zip
-    - Longitude
-    - Latitude
-    - Current_Owner
-    - Mailing_Care_Of
-    - Mailing_Street_Address
-    - Mailing_City_State
-    - Mail_Zip_4
-    - Owner_Occupied
-    - County_Land_Use
-    - County_Land_Use_Desc
-    - Standardized_Land_Use
-    - Standardized_Land_Use_Desc
-    - Lot_Frontage
-    - Lot_Depth
-    - Lot_Size
-    - Lot_Size_Unit
-    - Zoning
-    - Building_Class
-    - Year_Built
-    - No_Of_Stories
-    - No_Of_Units
-    - Assessment_Year
-    - Assessed_Land_Value
-    - Assessed_Improvement_Value
-    - Total_Assessed_Value
-    - Market_Value_Year
-    - Market_Land_Value
-    - Market_Improvement_Value
-    - Total_Market_Value
-    - Tax_Year
-    - Tax_Amount
-    - Latest_Sale_Date
-    - Latest_Sale_Price
-    - Latest_Arms_Length_Sale_Date
-    - Latest_Arms_Length_Sale_Price
-    - Prior_Arms_Length_Sale_Date
-    - Prior_Arms_Length_Sale_Price
-    - Loan1_Contract_Date
-    - Loan1_Recording_Date
-    - Loan1_Amount
-    - Loan1_Due_Date
-    - Loan1_Type
-    - Loan2_Contract_Date
-    - Loan2_Recording_Date
-    - Loan2_Amount
-    - Loan2_Due_Date
-    - Loan2_Type
-    - Legal_City
-    - Legal_Block
-    - Legal_Lot_Number
-    - Legal_Section
-    - Legal_District
-    - Legal_Unit
-    - Legal_Subdivision_Name
-    - Legal_Phase_Number
-    - Legal_Tract_Number
-    - Legal_Section_Township_Range_Meridian
-    - Legal_Assessors_Map_Ref
-    - Legal_Brief_Desc
+    "TSRID":
+    "Sort_No":
+    "State": "state_name"
+    "County": "county_name"
+    "Municipality":  #TODO
+    "Parcel_ID": "parcel_id"
+    "Tax_ID":
+    "ID_1":
+    "ID_2":
+    "ID_3":
+    "ID_4":
+    "ID_5":
+    "ID_6":
+    "ID_7":
+    "ID_8":
+    "ID_9":
+    "ID_10":
+    "List_Batch_No":
+    "List_Item_Ref": "list_item_reference"
+    "Amount": "face_value"
+    "List_Item_Type": "tax_type"
+    "List_Note_1": "principal"
+    "List_Note_2":
+    "List_Note_3":
+    "List_Note_4":
+    "TSR_Notes":
+    "Data_Match":
+    "Prop_Record_Year": "prop_record_year"
+    "APN": "apn"
+    "Location_House_Number": "location_house_number"
+    "Location_Street_Dir_Left": "location_street_dir_left"
+    "Location_Street_Name": "location_street_name"
+    "Location_Street_Suffix": "location_street_suffix"
+    "Location_Street_Dir_Right": "location_street_dir_right"
+    "Location_Unit_Number": "location_unit_number"
+    "Location_City": "location_city"
+    "Location_State": "state_name"
+    "Location_Zip_4": "location_zip"
+    "Location_Full_Street_Address": "location_street_address_1"
+    "Location_City_State_Zip": "location_city_state_zip"
+    "Longitude": "longitude"
+    "Latitude": "latitude"
+    "Current_Owner": "current_owner"
+    "Mailing_Care_Of": "mailing_care_of"
+    "Mailing_Street_Address": "mailing_street_address"
+    "Mailing_City_State": "mailing_city_state"
+    "Mail_Zip_4": "mailing_zip"
+    "Owner_Occupied": "owner_occupied"
+    "County_Land_Use": "county_land_use"
+    "County_Land_Use_Desc": "county_land_use_desc"
+    "Standardized_Land_Use": "standardized_land_use"
+    "Standardized_Land_Use_Desc": "standardized_land_use_desc"
+    "Lot_Frontage": "lot_frontage"
+    "Lot_Depth": "lot_depth"
+    "Lot_Size":
+    "Lot_Size_Unit": "lot_size_unit"
+    "Zoning": "zoning"
+    "Building_Class": "building_class"
+    "Year_Built": "year_built"
+    "No_Of_Stories": "no_of_stories"
+    "No_Of_Units": "no_of_units"
+    "Assessment_Year": "assessment_year"
+    "Assessed_Land_Value": "assessed_land_value"
+    "Assessed_Improvement_Value": "assessed_improvement_value"
+    "Total_Assessed_Value": "total_assessed_value"
+    "Market_Value_Year": "market_value_year"
+    "Market_Land_Value": "market_land_value"
+    "Market_Improvement_Value": "market_improvement_value"
+    "Total_Market_Value": "total_market_value"
+    "Tax_Year": "tax_year"
+    "Tax_Amount":
+    "Latest_Sale_Date": "last_sale_date"
+    "Latest_Sale_Price": "last_sale_price"
+    "Latest_Arms_Length_Sale_Date": "last_arms_length_sale_date"
+    "Latest_Arms_Length_Sale_Price": "last_arms_length_sale_price"
+    "Prior_Arms_Length_Sale_Date": "prior_arms_length_sale_date"
+    "Prior_Arms_Length_Sale_Price": "prior_arms_length_sale_price"
+    "Loan1_Contract_Date": "loan1_contract_date"
+    "Loan1_Recording_Date": "loan1_recording_date"
+    "Loan1_Amount": "loan1_amount"
+    "Loan1_Due_Date": "loan1_due_date"
+    "Loan1_Type": "loan1_type"
+    "Loan2_Contract_Date": "loan2_contract_date"
+    "Loan2_Recording_Date": "loan2_recording_date"
+    "Loan2_Amount": "loan2_amount"
+    "Loan2_Due_Date": "loan2_due_date"
+    "Loan2_Type": "loan2_type"
+    "Legal_City": "legal_city"
+    "Legal_Block": "legal_block"
+    "Legal_Lot_Number": "legal_lot_number"
+    "Legal_Section": "legal_section"
+    "Legal_District": "legal_district"
+    "Legal_Unit": "legal_unit"
+    "Legal_Subdivision_Name": "legal_subdivision_name"
+    "Legal_Phase_Number": "legal_phase_number"
+    "Legal_Tract_Number": "legal_tract_number"
+    "Legal_Section_Township_Range_Meridian": "legal_section_township_range_meridian"
+    "Legal_Assessors_Map_Ref": "legal_assessors_map_ref"
+    "Legal_Brief_Desc": "legal_brief_desc"
   initial_data: []
 tsr_nj:
   filler_row_count: 8
   headers:
-    - Sort_No
-    - APN
-    - Township
-    - County
-    - Block
-    - Lot
-    - Qualifier
-    - AddlLots
-    - Amount
-    - Type
-    - Notes
-    - HouseNo
-    - DirL
-    - StreetName
-    - StreetSufx
-    - DirR
-    - Unit
-    - City
-    - State
-    - ZIP
-    - FullLocation
-    - CityStateZip
-    - Owner
-    - AbsentOwner
-    - Class
-    - LandUse
-    - Zoning
-    - BldgDescr
-    - NoStories
-    - NoUnits
-    - YearBuilt
-    - LotWidth
-    - LotDepth
-    - LotSize
-    - Longitude
-    - Latitude
-    - SalePrice
-    - SaleDate
-    - PriorSalePrice
-    - PriorSaleDate
-    - AsmntYear
-    - LandValue
-    - ImpValue
-    - TotalValue
-    - TaxYear
-    - Taxes
-    - 1stMtgAmt
-    - 1stMtgRate
-    - 1stMtgTerm
-    - 1stMtgType
-    - 2ndMtgAmt
-    - 2ndMtgRate
-    - 2ndMtgTerm
-    - 2ndMtgType
-    - MailOwner
-    - MailCO
-    - MailAddress
-    - MailCityState
-    - MailZip
-    - OwnerPhone
-    - Rating
-    - Comment
-    - Area
-    - Occupied
-    - Coordinates
-    - LatLong
-    - Pic1
-    - Pic2
-    - Pic1FileName
-    - Pic2FileName
-    - environmentalxml
-    - environmentalsubjectsitefoundcount
-    - environmentalsitefoundcount
-    - environmentalscore
-    - FLD_CLASS
-    - SFHA
-    - DIST1_100
-    - DIST1_500
-    - BFE_WSEL
+    "Sort_No":
+    "APN": 'apn'
+    "Township":  #TODO
+    "County": "county_name"
+    "Block": "block" #TODO
+    "Lot": "lot" #TODO
+    "Qualifier": "qualifier" #TODO
+    "AddlLots": "addl_lots" #TODO
+    "Amount": 'face_value'
+    "Type": "tax_type" #TODO
+    "Notes": "account_numbers"
+    "HouseNo": 'location_house_number'
+    "DirL": 'location_street_dir_left'
+    "StreetName": 'location_street_name'
+    "StreetSufx": 'location_street_suffix'
+    "DirR": 'location_street_dir_right'
+    "Unit": 'location_unit_number'
+    "City": 'location_city'
+    "State": 'state_name'
+    "ZIP": 'location_zip'
+    "FullLocation": 'location_street_address_1'
+    "CityStateZip": 'location_city_state_zip'
+    "Owner": 'current_owner'
+    "AbsentOwner":
+    "Class":
+    "LandUse": 'standardized_land_use'
+    "Zoning": 'zoning'
+    "BldgDescr":
+    "NoStories": 'no_of_stories'
+    "NoUnits": 'no_of_units'
+    "YearBuilt": 'year_built'
+    "LotWidth": 'lot_frontage'
+    "LotDepth": 'lot_depth'
+    "LotSize":
+    "Longitude": 'longitude'
+    "Latitude": 'latitude'
+    "SalePrice": 'last_sale_price'
+    "SaleDate": 'last_sale_date'
+    "PriorSalePrice": 'prior_arms_length_sale_price'
+    "PriorSaleDate": 'prior_arms_length_sale_date'
+    "AsmntYear": 'assessment_year'
+    "LandValue": 'assessed_land_value'
+    "ImpValue": 'assessed_improvement_value'
+    "TotalValue": 'total_assessed_value'
+    "TaxYear": 'tax_year'
+    "Taxes":
+    "1stMtgAmt": 'loan1_amount'
+    "1stMtgRate":
+    "1stMtgTerm":
+    "1stMtgType": 'loan1_type'
+    "2ndMtgAmt": 'loan2_amount'
+    "2ndMtgRate":
+    "2ndMtgTerm":
+    "2ndMtgType": 'loan2_type'
+    "MailOwner": 'mailing_care_of'
+    "MailCO":
+    "MailAddress": 'mailing_street_address'
+    "MailCityState": 'mailing_city_state'
+    "MailZip": 'mailing_zip'
+    "OwnerPhone":
+    "Rating":
+    "Comment":
+    "Area":
+    "Occupied": 'owner_occupied'
+    "Coordinates":
+    "LatLong":
+    "Pic1":
+    "Pic2":
+    "Pic1FileName":
+    "Pic2FileName":
+    "environmentalxml":
+    "environmentalsubjectsitefoundcount":
+    "environmentalsitefoundcount":
+    "environmentalscore":
+    "FLD_CLASS":
+    "SFHA":
+    "DIST1_100":
+    "DIST1_500":
+    "BFE_WSEL":
   initial_data: []

@@ -5,12 +5,15 @@ require 'yaml'
 module CSVundle
   class AccessCSV
     attr_accessor :setup_data, :rows, :columns, :full_csv
+    attr_reader :headers, :column_values
 
     def initialize(type)
       @setup_data = YAML.load(ERB.new(File.read("#{GEM_ROOT}/config/csv_setup_data.yml")).result).fetch(type.to_s)
       @rows, @columns, @full_csv = [], [], []
+      @headers = @setup_data['headers']
+      @columns = @headers.keys
+      @column_values = @headers.values
       @normalized_columns = normalized_columns
-      @columns = @setup_data['headers']
       @type = type if type_usable? type
       setup_by_type
     end

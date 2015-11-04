@@ -4,9 +4,14 @@ describe CSVundle::AccessCSV do
   context "Generic parent CSV class" do
     let(:csv) { CSVundle::AccessCSV.new(:lienalytics) }
 
-    it "has rows & columns" do
-      expect(csv.columns.sort).to eq csv.setup_data['headers'].sort
+    it "has rows, columns and column values" do
+      expect(csv.columns.sort).to eq csv.setup_data['headers'].keys.sort
+      expect(csv.column_values).to eq(csv.setup_data['headers'].values)
       expect(csv.rows).to eq [[]] # lienalytics has a filler row
+    end
+
+    it "has headers" do
+      expect(csv.headers).to eq csv.setup_data['headers']
     end
 
     it "can viperize (convert to snakecase) a given symbol" do
