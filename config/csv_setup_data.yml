@@ -250,9 +250,9 @@ lumentum:
     "NALFormat":  # alternate APN formats (no spaces/dashes/etc)
     "ALTKEYFormat":  # alternate APN formats
     "PropertyAppraiserFormat":  # alternate APN formats
-    "TaxCollectorFormat": "apn" # alternate APN formats
+    "TaxCollectorFormat": "parcel_id" # alternate APN formats
     "ExtraFormat":  # alternate APN formats
-    "AuctionFormat": "parcel_id" # alternate APN formats
+    "AuctionFormat": "apn" # alternate APN formats
     "NewParcel":
     "ReParceled":
     "CertYear":  # cert_year added to Lien (date_purchased_from_issuer year)
