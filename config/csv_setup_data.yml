@@ -720,15 +720,15 @@ mtag_export:
 old_lienalytics:
   filler_row_count: 7
   headers:
-    "sort_no": "sort_no"
-    "list_item_id": "list_item_id"
+    "sort_no": "row_number"
+    "list_item_id": "list_item_reference"
     "state": "state_name"
     "county": "county_name"
     "municipality":
     "full_fips_code": "full_fips_code"
     "parcel_id": "parcel_id"
     "list_batch_no":
-    "list_item_ref": "list_item_ref"
+    "list_item_ref": "list_item_reference"
     "amount": "face_value"
     "list_item_type": "tax_type"
     "list_note_1":
@@ -755,7 +755,7 @@ old_lienalytics:
     "mailing_care_of": "mailing_care_of"
     "mailing_street_address": "mailing_street_address"
     "mailing_city_state": "mailing_city_state"
-    "mail_zip_4": "mail_zip_4"
+    "mail_zip_4": "mailing_zip"
     "owner_occupied": "owner_occupied"
     "apn": "apn"
     "tax_id":
@@ -782,7 +782,7 @@ old_lienalytics:
     "latitude": "latitude"
     "lot_frontage": "lot_frontage"
     "lot_depth": "lot_depth"
-    "lot_size": "lot_size"
+    "lot_size":
     "lot_size_unit": "lot_size_unit"
     "zoning": "zoning"
     "building_class": "building_class"
