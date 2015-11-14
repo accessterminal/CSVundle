@@ -115,6 +115,8 @@ lienalytics:
     "tags": "tags"
     "bids": "bids"
     "notes": "notes"
+    "photos": "photos"
+    "surveys": "surveys"
     "additional_csv_data": "additional_csv_data"
   initial_data:
     - "Lienalytics Custom List"
