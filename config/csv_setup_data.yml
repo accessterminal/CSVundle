@@ -692,7 +692,7 @@ mtag_export:
     "Rank":
     "Tax": "face_value"
     "Overbid": "premium_overbid"
-    "Amount Paid":  #"principal" # TODO: update this with added field on lien: :principal
+    "Amount Paid": "amount_paid" # TODO: update this with added field on lien: :principal
     "Assessed Value": "total_assessed_value"
     "Market Value": "total_market_value"
     "LTV":
