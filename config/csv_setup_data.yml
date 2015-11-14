@@ -866,7 +866,7 @@ tsr:
   filler_row_count: 8
   headers:
     "TSRID":
-    "Sort_No":
+    "Sort_No": "row_number"
     "State": "state_name"
     "County": "county_name"
     "Municipality":  #TODO
@@ -882,7 +882,7 @@ tsr:
     "ID_8":
     "ID_9":
     "ID_10":
-    "List_Batch_No":
+    "List_Batch_No": "row_number"
     "List_Item_Ref": "list_item_reference"
     "Amount": "face_value"
     "List_Item_Type": "tax_type"
@@ -891,7 +891,7 @@ tsr:
     "List_Note_3":
     "List_Note_4":
     "TSR_Notes":
-    "Data_Match":
+    "Data_Match": "data_match"
     "Prop_Record_Year": "prop_record_year"
     "APN": "apn"
     "Location_House_Number": "location_house_number"
