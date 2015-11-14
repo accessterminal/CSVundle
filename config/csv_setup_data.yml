@@ -11,7 +11,7 @@ grant_street:
 lienalytics:
   filler_row_count: 1
   headers:
-    "lien_ID": "lien_ID"
+    "lien_ID": "id"
     "row_number": "row_number"
     "state_name": "state_name"
     "county_name": "county_name"
@@ -111,10 +111,10 @@ lienalytics:
     "loan2_amount": "loan2_amount"
     "loan2_due_date": "loan2_due_date"
     "loan2_type": "loan2_type"
-    "municipality":
-    "tags":
-    "bids":
-    "notes":
+    "municipality": "municipality"
+    "tags": "tags"
+    "bids": "bids"
+    "notes": "notes"
     "additional_csv_data": "additional_csv_data"
   initial_data:
     - "Lienalytics Custom List"
