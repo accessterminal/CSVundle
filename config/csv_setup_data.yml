@@ -616,6 +616,7 @@ melissa_data:
     "MD_Building_BuildingCode": "building_class"
     "MD_Building_Stories": "no_of_stories"
     "MD_Building_Units": "no_of_units"
+    "additional_csv_data": "additional_csv_data"
   initial_data: []
 mtag_import:
   filler_row_count: 0
