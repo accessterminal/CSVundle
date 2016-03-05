@@ -33,7 +33,7 @@ module CSVundle
 
     def type_usable?(type)
       [:lienalytics, :grant_street, :lumentum, :mtag, :old_lienalytics,
-       :real_auction, :tsr, :tsr_js].include? type.to_sym
+       :real_auction, :tsr, :tsr_js, :core_logic].include? type.to_sym
     end
 
     def viperize(symbol)
