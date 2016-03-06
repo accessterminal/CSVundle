@@ -1055,182 +1055,182 @@ tsr_nj:
 core_logic:
   filler_row_count: 0
   headers:
-    "fips_code": "fips"
+    "fips_code": "full_fips_code"
     "unformatted_apn": "apn"
-    "apn_sequence_nbr": ""
+    "apn_sequence_nbr":
     "formatted_apn": "apn"
     "original_apn": "apn"
-    "previous_parcel_number": ""
-    "p_id_iris_frmtd": ""
-    "account_number": ""
-    "map_reference_one": ""
-    "map_reference_two": ""
-    "census_tract": ""
-    "block_number": ""
-    "lot_number": ""
+    "previous_parcel_number":
+    "p_id_iris_frmtd":
+    "account_number":
+    "map_reference_one":
+    "map_reference_two":
+    "census_tract":
+    "block_number":
+    "lot_number":
     "range": "legal_township_range_meridian"
     "township": "legal_section_township_range_meridian"
-    "section": ""
-    "quarter_section": ""
-    "flood_zone_community_panel_id": ""
+    "section":
+    "quarter_section":
+    "flood_zone_community_panel_id":
     "land_use": "standardized_land_use"
-    "county_use_one": ""
-    "county_use_two": ""
-    "mobile_home_ind": ""
+    "county_use_one":
+    "county_use_two":
+    "mobile_home_ind":
     "zoning": "zoning"
-    "property_indicator": ""
+    "property_indicator":
     "municipality_name": "municipality"
-    "municipality_code": ""
-    "subdivision_tract_number": ""
-    "subdivision_plat_book": ""
-    "subdivision_plat_page": ""
-    "subdivision_name": ""
-    "cascade_latitude": ""
-    "cascade_longitude": ""
-    "situs_house_number_prefix": ""
+    "municipality_code":
+    "subdivision_tract_number":
+    "subdivision_plat_book":
+    "subdivision_plat_page":
+    "subdivision_name":
+    "cascade_latitude":
+    "cascade_longitude":
+    "situs_house_number_prefix":
     "situs_house_number": "location_house_number"
-    "situs_house_number_number_two": ""
-    "situs_house_number_suffix": ""
+    "situs_house_number_number_two":
+    "situs_house_number_suffix":
     "situs_direction": "location_street_direction"
     "situs_street_name": "location_street_name"
-    "situs_mode": ""
-    "situs_quadrant": ""
+    "situs_mode":
+    "situs_quadrant":
     "situs_unit_number": "location_unit_number"
     "situs_city": "location_city"
     "situs_state": "state_name"
     "situs_zip_code": "location_zip"
-    "situs_carrier_code": ""
-    "owner_corporate_indicator": ""
-    "owner_one_last_name": ""
-    "owner_one_first_name_and_m_i": ""
+    "situs_carrier_code":
+    "owner_corporate_indicator":
+    "owner_one_last_name":
+    "owner_one_first_name_and_m_i":
     "owner_two_last_name": "owner_name"
     "owner_two_first_name_and_mi": "owner_name"
-    "absentee_owner_status": ""
-    "homestead_exempt": ""
-    "owner_etal_indicator": ""
-    "owner_ownership_rights_code": ""
-    "owner_relationship_type": ""
-    "mail_house_number_prefix": ""
-    "mail_house_number": ""
-    "mail_house_number_number_two": ""
-    "mail_house_number_suffix": ""
-    "mail_direction": ""
-    "mail_street_name": ""
-    "mail_mode": ""
-    "mail_quadrant": ""
-    "mail_unit_number": ""
-    "mail_city": ""
+    "absentee_owner_status":
+    "homestead_exempt":
+    "owner_etal_indicator":
+    "owner_ownership_rights_code":
+    "owner_relationship_type":
+    "mail_house_number_prefix":
+    "mail_house_number":
+    "mail_house_number_number_two":
+    "mail_house_number_suffix":
+    "mail_direction":
+    "mail_street_name":
+    "mail_mode":
+    "mail_quadrant":
+    "mail_unit_number":
+    "mail_city":
     "mail_state": "location_state"
     "mail_zip_code": "location_zip"
-    "mail_carrier_code": ""
-    "mailing_opt_out_code": ""
+    "mail_carrier_code":
+    "mailing_opt_out_code":
     "total_value_calculated": "total_assessed_value"
     "land_value_calculated": "assessed_land_value"
     "improvement_value_calculated": "assessed_improvement_value"
-    "total_value_calculated_ind": ""
-    "land_value_calculated_ind": ""
-    "improvement_value_calculated_ind": ""
+    "total_value_calculated_ind":
+    "land_value_calculated_ind":
+    "improvement_value_calculated_ind":
     "assd_total_value": "total_assessed_value"
     "assd_land_value": "assessed_land_value"
     "assd_improvement_value": "assessed_improvement_value"
     "mkt_total_value": "total_market_value"
-    "mkt_land_value": "makret_land_value"
+    "mkt_land_value": "market_land_value"
     "mkt_improvement_value": "market_improvement_value"
-    "appr_total_value": ""
-    "appr_land_value": ""
-    "appr_improvement_value": ""
-    "tax_amount": ""
-    "tax_year": ""
-    "assessed_year": ""
-    "tax_code_area": ""
-    "batch_id": ""
-    "batch_seq": ""
-    "multi_apn_flag": ""
-    "document_no_": ""
-    "book_and_page": ""
-    "document_type": ""
-    "recording_date": ""
-    "sale_date": ""
-    "sale_price": ""
-    "sale_code": ""
-    "seller_name": ""
-    "transaction_type": ""
-    "title_company_code": ""
-    "title_company_name": ""
-    "residential_model_indicator": ""
-    "first_mortgage_amount": ""
-    "mortgage_date": ""
-    "mortgage_loan_type_code": ""
-    "mortgage_deed_type": ""
-    "mortgage_term_code": ""
-    "mortgage_term": ""
-    "mortgage_due_date": ""
+    "appr_total_value":
+    "appr_land_value":
+    "appr_improvement_value":
+    "tax_amount":
+    "tax_year": "tax_year"
+    "assessed_year":
+    "tax_code_area":
+    "batch_id":
+    "batch_seq":
+    "multi_apn_flag":
+    "document_no_":
+    "book_and_page":
+    "document_type":
+    "recording_date":
+    "sale_date":
+    "sale_price":
+    "sale_code":
+    "seller_name":
+    "transaction_type":
+    "title_company_code":
+    "title_company_name":
+    "residential_model_indicator":
+    "first_mortgage_amount":
+    "mortgage_date":
+    "mortgage_loan_type_code":
+    "mortgage_deed_type":
+    "mortgage_term_code":
+    "mortgage_term":
+    "mortgage_due_date":
     "additional_csv_data": "additional_csv_data"
-    "mortage_assumption_amount": ""
-    "lender_code": ""
-    "lender_name": ""
-    "second_mortgage_amount": ""
-    "second_mortgage_loan_type_code": ""
-    "second_deed_type": ""
-    "front_footage": ""
-    "depth_footage": ""
-    "acres": ""
-    "land_square_footage": ""
-    "universal_building_square_feet": ""
-    "building_square_feet_ind": ""
-    "building_square_feet": ""
-    "living_square_feet": ""
-    "ground_floor_square_feet": ""
-    "gross_square_feet": ""
-    "adjusted_gross_square_feet": ""
-    "basement_square_feet": ""
-    "garage_parking_square_feet": ""
-    "year_built": ""
-    "effective_year_built": ""
-    "bedrooms": ""
-    "total_rooms": ""
-    "total_baths_calculated": ""
-    "total_baths": ""
-    "full_baths": ""
-    "half_baths": ""
-    "oneqtr_baths": ""
-    "three_qtr_baths": ""
-    "bath_fixtures": ""
-    "air_conditioning": ""
-    "basement_finish": ""
-    "basement_description": ""
-    "bldg_code": ""
-    "bldg_impv_code": ""
-    "condition": ""
-    "construction_type": ""
-    "exterior_walls": ""
-    "fireplace_ind": ""
-    "fireplace_number": ""
-    "fireplace_type": ""
-    "foundation": ""
-    "floor": ""
-    "frame": ""
-    "garage": ""
-    "heating": ""
-    "parking_spaces": ""
-    "parking_type": ""
-    "pool": ""
-    "pool_code": ""
-    "quality": ""
-    "roof_cover": ""
-    "roof_type": ""
-    "stories_code": ""
-    "stories_number": ""
-    "style": ""
-    "view": ""
-    "location_influence": ""
-    "number_of_units": ""
-    "units_number": ""
-    "electric_energy": ""
-    "fuel": ""
-    "sewer": ""
-    "utilities": ""
-    "water": ""
-    "legal_one": ""
-    "legal_two": ""
-    "legal_three": ""
+    "mortage_assumption_amount":
+    "lender_code":
+    "lender_name":
+    "second_mortgage_amount":
+    "second_mortgage_loan_type_code":
+    "second_deed_type":
+    "front_footage": "lot_frontage"
+    "depth_footage": "lot_depth"
+    "acres":
+    "land_square_footage":
+    "universal_building_square_feet":
+    "building_square_feet_ind":
+    "building_square_feet":
+    "living_square_feet":
+    "ground_floor_square_feet":
+    "gross_square_feet":
+    "adjusted_gross_square_feet":
+    "basement_square_feet":
+    "garage_parking_square_feet":
+    "year_built":
+    "effective_year_built":
+    "bedrooms":
+    "total_rooms":
+    "total_baths_calculated":
+    "total_baths":
+    "full_baths":
+    "half_baths":
+    "oneqtr_baths":
+    "three_qtr_baths":
+    "bath_fixtures":
+    "air_conditioning":
+    "basement_finish":
+    "basement_description":
+    "bldg_code":
+    "bldg_impv_code":
+    "condition":
+    "construction_type":
+    "exterior_walls":
+    "fireplace_ind":
+    "fireplace_number":
+    "fireplace_type":
+    "foundation":
+    "floor":
+    "frame":
+    "garage":
+    "heating":
+    "parking_spaces":
+    "parking_type":
+    "pool":
+    "pool_code":
+    "quality":
+    "roof_cover":
+    "roof_type":
+    "stories_code": "building_class"
+    "stories_number": "no_of_stories"
+    "style":
+    "view":
+    "location_influence":
+    "number_of_units": "no_of_units"
+    "units_number":
+    "electric_energy":
+    "fuel":
+    "sewer":
+    "utilities":
+    "water":
+    "legal_one":
+    "legal_two":
+    "legal_three":
