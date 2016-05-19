@@ -863,7 +863,7 @@ real_auction:
     "ADVNUM":
     "PARCEL": "apn"
     "FACEVALUE": "face_value"
-    "BID":
+    "BID": "bid"
   initial_data: []
 tsr:
   filler_row_count: 8
