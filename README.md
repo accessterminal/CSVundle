@@ -8,7 +8,7 @@ CSVundle is a utility for Access Terminal. It assists in the generation of CSV's
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'csvundle', git: 'https://github.com/cometaworks/csvundle.git', :branch => 'master'
+gem 'csvundle', git: 'https://github.com/accessterminal/csvundle.git', branch: 'master'
 ```
 
 And then execute:
