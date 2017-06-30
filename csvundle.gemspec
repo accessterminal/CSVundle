@@ -6,12 +6,12 @@ require 'csvundle/version'
 Gem::Specification.new do |spec|
   spec.name          = "csvundle"
   spec.version       = CSVundle::VERSION
-  spec.authors       = ["Ybur Yug"]
-  spec.email         = ["bobbygrayson@gmail.com"]
+  spec.authors       = ["Robert Grayson", "Jonah Ruiz"]
+  spec.email         = ["bobbygrayson@gmail.com", "jonah@pixelhipsters.com"]
 
   spec.summary       = %q{To package csvs for access terminal.}
   spec.description   = %q{A WIP gem to package csvs for access terminal.}
-  spec.homepage      = "http://google.com"
+  spec.homepage      = "https://github.com/accessterminal/CSVundle"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"

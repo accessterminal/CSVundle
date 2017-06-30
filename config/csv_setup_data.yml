@@ -1051,7 +1051,6 @@ tsr_nj:
     "DIST1_500":
     "BFE_WSEL":
   initial_data: []
-
 core_logic:
   filler_row_count: 0
   headers:
@@ -1234,3 +1233,147 @@ core_logic:
     "legal_one": ""
     "legal_two": ""
     "legal_three": ""
+blox_trade:
+  filler_row_count: 6
+  headers:
+    "SORT_NO": "row_number"
+    "LIST_ITEM_ID": "row_number"
+    "STATE": "state_name"
+    "COUNTY": "county_name"
+    "MUNICIPALITY": "municipality"
+    "FULL_FIPS_CODE": "full_fips_code"
+    "PARCEL_ID": "apn"
+    "LIST_BATCH_NO": "block"
+    "LIST_ITEM_REF": "list_item_reference"
+    "AMOUNT": "principal"
+    "LIST_ITEM_TYPE": "tax_type"
+    "LIST_NOTE_1": "block"
+    "LIST_NOTE_2": "lot"
+    "LIST_NOTE_3": "qualifier"
+    "LIST_NOTE_4": "addl_lots"
+    "LOCATION_FULL_STREET_ADDRESS": "location_street_address_1"
+    "LOCATION_CITY_STATE_ZIP": "location_city_state_zip"
+    "ASSESSMENT_YEAR": "assessment_year"
+    "ASSESSED_LAND_VALUE": "assessed_land_value"
+    "ASSESSED_IMPROVEMENT_VALUE": "assessed_improvement_value"
+    "TOTAL_ASSESSED_VALUE": "total_assessed_value"
+    "MARKET_VALUE_YEAR": "market_value_year"
+    "MARKET_LAND_VALUE": "market_land_value"
+    "MARKET_IMPROVEMENT_VALUE": "market_improvement_value"
+    "TOTAL_MARKET_VALUE": "total_market_value"
+    "TAX_YEAR": "tax_year"
+    "TAX_AMOUNT": "total_yearly_tax"
+    "COUNTY_LAND_USE": "county_land_use"
+    "COUNTY_LAND_USE_DESC": "county_land_use_desc"
+    "STANDARDIZED_LAND_USE": "standardized_land_use"
+    "STANDARDIZED_LAND_USE_DESC": "standardized_land_use_desc"
+    "CURRENT_OWNER": "current_owner"
+    "MAILING_CARE_OF": "mailing_care_of"
+    "MAILING_STREET_ADDRESS": "mailing_street_address"
+    "MAILING_CITY_STATE": "mailing_city_state"
+    "MAIL_ZIP_4": "mailing_zip"
+    "OWNER_OCCUPIED": "owner_occupied"
+    "APN": "apn"
+    "TAX_ID": "parcel_id"
+    "ID_1": "block"
+    "ID_2": "lot"
+    "ID_3": "qualifier"
+    "ID_4": "addl_lots"
+    "ID_5": "account_numbers"
+    "ID_6":
+    "ID_7":
+    "ID_8":
+    "ID_9":
+    "ID_10":
+    "LOCATION_HOUSE_NUMBER": "location_house_number"
+    "LOCATION_STREET_DIR_LEFT": "location_street_dir_left"
+    "LOCATION_STREET_NAME": "location_street_name"
+    "LOCATION_STREET_SUFFIX": "location_street_suffix"
+    "LOCATION_STREET_DIR_RIGHT": "location_street_dir_right"
+    "LOCATION_UNIT_NUMBER": "location_unit_number"
+    "LOCATION_CITY": "location_city"
+    "LOCATION_STATE": "state_name"
+    "LOCATION_ZIP_4": "location_zip"
+    "LONGITUDE": "longitude"
+    "LATITUDE": "latitude"
+    "LOT_FRONTAGE": "lot_frontage"
+    "LOT_DEPTH": "lot_depth"
+    "LOT_SIZE":
+    "LOT_SIZE_UNIT": "lot_size_unit"
+    "ZONING": "zoning"
+    "BUILDING_CLASS": "building_class"
+    "YEAR_BUILT": "year_built"
+    "NO_OF_STORIES": "no_of_stories"
+    "NO_OF_UNITS": "no_of_units"
+    "LATEST_SALE_DATE": "last_sale_date"
+    "LATEST_SALE_PRICE": "last_sale_price"
+    "LATEST_ARMS_LENGTH_SALE_DATE": "last_arms_length_sale_date"
+    "LATEST_ARMS_LENGTH_SALE_PRICE": "last_arms_length_sale_price"
+    "PRIOR_ARMS_LENGTH_SALE_DATE": "prior_arms_length_sale_date"
+    "PRIOR_ARMS_LENGTH_SALE_PRICE": "prior_arms_length_sale_price"
+    "LOAN1_CONTRACT_DATE": "loan1_contract_date"
+    "LOAN1_RECORDING_DATE": "loan1_recording_date"
+    "LOAN1_AMOUNT": "loan1_amount"
+    "LOAN1_DUE_DATE": "loan1_due_date"
+    "LOAN1_TYPE": "loan1_type"
+    "LOAN2_CONTRACT_DATE": "loan2_contract_date"
+    "LOAN2_RECORDING_DATE": "loan2_recording_date"
+    "LOAN2_AMOUNT": "loan2_amount"
+    "LOAN2_DUE_DATE": "loan2_due_date"
+    "LOAN2_TYPE": "loan2_type"
+    "LEGAL_CITY": "legal_city"
+    "LEGAL_BLOCK": "legal_block"
+    "LEGAL_LOT_NUMBER": "legal_lot_number"
+    "LEGAL_SECTION": "legal_section"
+    "LEGAL_DISTRICT": "legal_district"
+    "LEGAL_UNIT": "legal_unit"
+    "LEGAL_SUBDIVISION_NAME": "legal_subdivision_name"
+    "LEGAL_PHASE_NUMBER": "legal_phase_number"
+    "LEGAL_TRACT_NUMBER": "legal_tract_number"
+    "LEGAL_SECTION_TOWNSHIP_RANGE_MERIDIAN": "legal_section_township_range_meridian"
+    "LEGAL_ASSESSORS_MAP_REF": "legal_assessors_map_ref"
+    "LEGAL_BRIEF_DESC": "legal_brief_desc"
+    "INSPECT_URL":
+    "LIEN_CERTIFICATE": "certificate_no"
+    "CLIENT_PARCEL_CERTIFICATE_NUMBER": "client_provided_parcel_id"
+    "LEGAL_STATUS": "legal_status"
+    "PENALTY_RATE": "penalty_rate"
+    "PENALTY_AMOUNT": "penalty_amount"
+    "PREMIUM_OVERBID": "premium_overbid"
+    "TOTAL_RECOVERABLE_FEES":
+    "LIEN_TAX_YEAR": "tax_year"
+    "ORIGINAL_SALE_AUCTION_DATE": "original_sale_auction_date"
+    "DATE_PURCHASED_FROM_ISSUER": "date_purchased_from_issuer"
+    "ISSUER": "issuer"
+    "LIEN_FACE_VALUE": "face_value"
+    "INTEREST_RATE": "interest_rate"
+    "DAYS_OUTSTANDING":
+    "MONTHS_OUTSTANDING":
+    "PERIODS_OUTSTANDING":
+    "ACCRUED_INTEREST":
+    "REDEMPTIVE_VALUE_DATE":
+    "REDEMPTIVE_VALUE": "redemptive_value"
+    "RV_ASSESSED":
+    "LIEN_SUB":
+    "COMBINED_RV":
+    "TDA_DATE":
+    "TDA_MONTHS_OUTSTANDING":
+    "NOTES":
+    "AMOUNT_TO_REDEEM":
+    "ROLL_UP":
+    "DEED_CERTIFIED_DATE":
+    "DEED_SALE_DATE":
+    "TDA_APPLICATION_NUMBER":
+    "OPTIONAL_FIELD_1":
+    "OPTIONAL_FIELD_2":
+    "OPTIONAL_FIELD_3":
+    "OPTIONAL_FIELD_4":
+    "OPTIONAL_FIELD_5":
+    "OPTIONAL_FIELD_6":
+    "OPTIONAL_FIELD_7":
+    "OPTIONAL_FIELD_8":
+    "OPTIONAL_FIELD_9":
+    "OPTIONAL_FIELD_10":
+  initial_data:
+    - "Bloxtrade Custom List"
+    - <%= "Downloaded On #{Date.today}" %>
