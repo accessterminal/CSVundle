@@ -1344,7 +1344,7 @@ blox_trade:
     "LIEN_TAX_YEAR": "tax_year"
     "ORIGINAL_SALE_AUCTION_DATE": "original_sale_auction_date"
     "DATE_PURCHASED_FROM_ISSUER": "date_purchased_from_issuer"
-    "ISSUER": "issuer"
+    "ISSUER": "county_name"
     "LIEN_FACE_VALUE": "face_value"
     "INTEREST_RATE": "interest_rate"
     "DAYS_OUTSTANDING":
