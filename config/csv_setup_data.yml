@@ -1395,7 +1395,7 @@ blox_trade_import:
     "cert_num": "certificate_no"
     "tax_year": "tax_year"
     "interest_rate": "interest_rate"
-    "sale_date": "sale_date"
+    "sale_date": "last_sale_date"
     "purchase_date": "date_purchased_from_issuer"
     "penalty_rate": "penalty_rate"
     "current_owner": "current_owner"
