@@ -1377,3 +1377,30 @@ blox_trade:
   initial_data:
     - "Bloxtrade Custom List"
     - <%= "Downloaded On #{Date.today}" %>
+blox_trade_import:
+  filler_row_count: 0
+  headers:
+    "list_item_reference": "list_item_reference"
+    "state_abbrevation": "state_name"
+    "county_name": "county_name"
+    "municipality": "municipality"
+    "fips_code": "full_fips_code"
+    "client_id": "client_provided_parcel_id"
+    "apn": "apn"
+    "block": "block"
+    "lot": "lot"
+    "qualifier": "qualifier"
+    "addl_lots": "addl_lots"
+    "face_value": "face_value"
+    "cert_num": "certificate_no"
+    "tax_year": "tax_year"
+    "interest_rate": "interest_rate"
+    "sale_date": "sale_date"
+    "purchase_date": "date_purchased_from_issuer"
+    "penalty_rate": "penalty_rate"
+    "current_owner": "current_owner"
+    "location_street_address_1": "location_street_address_1"
+    "location_city_state_zip": "location_city_state_zip"
+    "bloxtrade_notes":
+    "bloxtrade_notes1":
+  initial_data: []
