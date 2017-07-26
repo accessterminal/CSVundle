@@ -1243,7 +1243,7 @@ blox_trade:
     "MUNICIPALITY": "municipality"
     "FULL_FIPS_CODE": "full_fips_code"
     "PARCEL_ID": "apn"
-    "LIST_BATCH_NO": "block"
+    "LIST_BATCH_NO":
     "LIST_ITEM_REF": "list_item_reference"
     "AMOUNT": "principal"
     "LIST_ITEM_TYPE": "tax_type"
